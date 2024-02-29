@@ -33,14 +33,14 @@ Preguntas Frecuentes de los clientes.
 <details>
     <summary>¿Cómo puedo agregar un evento propio a la plataforma?</summary>
     <div>
-    * Para agregar eventos necesitas varios datos en especifico, como el código del evento, el protocolo y muchas cosas mas, pero si quieres saber como agregar un evento en nuestra plataforma puedes dirigirte a [Agregar Evento.](parametros#¿como-agregar-un-evento)
+    * Para agregar eventos necesitas varios datos en especifico, como el código del evento, el protocolo y muchas cosas mas, pero si quieres saber como agregar un evento en nuestra plataforma puedes dirigirte a [Agregar Evento.](../365connectPro/parametros.md#¿como-agregar-un-evento)
     </div>
 </details>
 
 <details>
     <summary>¿Cómo puedo hacer un respaldo de la base de datos?</summary>
     <div>
-    * Para hacer un respaldo desde la plataforma 365 solo necesitas ir al modulo de parametros, buscar el sub-modulo respaldo, te aparecerá un mensaje que dice "Desea exportar una base de datos a la carpeta predefinida", luego damos clic en aceptar y listo. Para mas información haga clic en [Respaldo.](parametros#respaldo )
+    * Para hacer un respaldo desde la plataforma 365 solo necesitas ir al modulo de parametros, buscar el sub-modulo respaldo, te aparecerá un mensaje que dice "Desea exportar una base de datos a la carpeta predefinida", luego damos clic en aceptar y listo. Para mas información haga clic en [Respaldo.](../365connectPro/parametros.md#respaldo )
     </div>
 </details>
 
@@ -259,7 +259,7 @@ si usas autenticación de 2 factores para acceder a tu cuenta de Google, no se p
 <details>
 <summary>¿Cómo configurar una camara?</summary>
 <div>
-* Si sigue los pasos de esta guia correctamente y los datos introducidos son los correctos, deberia poder visualizar las camaras, en las centrales de alarma en la pestaña de camaras y en la seccion de monitoreo. Ir a esta seccion del manual [**Aqui.**](./dispositivos#cámaras)
+* Si sigue los pasos de esta guia correctamente y los datos introducidos son los correctos, deberia poder visualizar las camaras, en las centrales de alarma en la pestaña de camaras y en la seccion de monitoreo. Ir a esta seccion del manual [**Aqui.**](../365connectPro/dispositivos.md#cámaras)
 </div>
 </details>
 
@@ -268,7 +268,7 @@ si usas autenticación de 2 factores para acceder a tu cuenta de Google, no se p
 <div>
 * Un asociado es una cuenta compartida entre personas, empresas u organizaciones las cuales por alguna razon requieren o deben compartir sus dispositivos, pero sin otorgar las credenciales de sus cuentas. Para esto, tenemos la opcion de asociados, la cual permite vincular dos o mas dispositivos de clientes y visualizar todas las señales en el monitoreo.
 
-Para mas informacion de que es un asociados y sus funciones puede hacer clic [**Aqui.**](./asociados)
+Para mas informacion de que es un asociados y sus funciones puede hacer clic [**Aqui.**](../../manual-y-faq/365connectPro/asociados.md)
 
 </div>
 </details>

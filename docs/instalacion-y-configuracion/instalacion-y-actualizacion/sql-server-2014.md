@@ -29,7 +29,7 @@ Si se pasan todas las reglas este paso se procesará y se omitirá automáticame
 
 ![sql4](./img/Install_Config/sql/365_sql4.png "sql4")
 
-> Si sucede algún error con el NetFramework 3.5 puede dirigirse al siguiente link. [**Error NetFramework 3.5**](problemas-con-la-instalacion#instalador-de-sql-server-no-detecta-net-framework-35)
+> Si sucede algún error con el NetFramework 3.5 puede dirigirse al siguiente link. [**Error NetFramework 3.5**](../../solucion-de-problemas/365software/problemas-con-la-instalacion.md#instalador-de-sql-server-no-detecta-net-framework-35)
 
 Seleccionamos la opción "**Instalación de características de SQL Server**" y hacemos clic en **siguiente**.
 

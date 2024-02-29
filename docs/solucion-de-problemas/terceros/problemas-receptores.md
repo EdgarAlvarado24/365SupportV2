@@ -39,7 +39,7 @@ Este error ocurre en algunas versiones de windows con el controlador actualizado
 
 ### Instalacion del driver alternativo
 
-Descargar e instalar el controlador alternativo >[Más Información: sobre dispositivos.](descargar-instaladores).
+Descargar e instalar el controlador alternativo >[Más Información: sobre dispositivos.](../../instalacion-y-configuracion/descargar-instaladores/descargar-instaladores.md).
 
 * Abrir el administrador de dispositivos y ubicar el dispositivo con el error "this is not prolific pl2303 please contact your supplier" en la pestaña de dispositivos COM, clic derecho en propiedades y seleccionar "Actualizar controlador"
 

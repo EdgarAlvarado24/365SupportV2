@@ -4,13 +4,15 @@ title: Solución de Problemas
 sidebar_label: General
 sidebar_position: 1
 ---
+
 ## Mensaje "Failed to execute script main" en 365Connect Lite
+
 ![error](./img/main.png "error")
 Entramos a la base de datos y listamos los clientes para ver los últimos registrados. Posteriormente seleccionamos editar y eliminamos los que digan Cliente Desconocido.
 
 ## SG-Systems Console
 
-### Problemas de conexion con el SG-Systems Console V2 Client 
+### Problemas de conexion con el SG-Systems Console V2 Client
 
 ![error](./img/system-conexion.png "error")
 Lo primero que hacemos es cerrar todos los programas, reiniciar el equipo y luego volver abrir el **SG-Systems Consolse V2 Monitor** y luego **SG-Systems Console V2 Client** deberia conectar con normalidad.
@@ -21,19 +23,19 @@ Si el equipo tiene un OSM instalado, se debe ejecutar primero el OSM.
 
 ### ¿Como cambiar el puerto de conexion de SG-Systems Console Client V2?
 
-* Nos dirigimos al icono del **SG-Systems Console Server**, buscamos la opcion **Preferencias**
+- Nos dirigimos al icono del **SG-Systems Console Server**, buscamos la opcion **Preferencias**
 
 ![console1](./img/console1.png "console1")
 
-* Podemos ver el puerto por el cual actualmente se puede conectar el SG-System Console Client que por defecto es el **9000**, cambiamos el puerto por el que deseamos haciendo doble clic en el puerto actual y cambiandolo por el que deseamos en este caso el **9001**.
+- Podemos ver el puerto por el cual actualmente se puede conectar el SG-System Console Client que por defecto es el **9000**, cambiamos el puerto por el que deseamos haciendo doble clic en el puerto actual y cambiandolo por el que deseamos en este caso el **9001**.
 
 ![console2](./img/console2.png "console2")
 
-* Luego iniciamos el **SG-System Console Client V2**, nos pedira el Host y la clave, 
+- Luego iniciamos el **SG-System Console Client V2**, nos pedira el Host y la clave,
 
 ![console3](./img/console3.png "console3")
 
-* En el host escribimos localhost agregamos dos puntos y el puerto por el que deseamos ingresar en este caso el **9001**, luego simplemente ingresamos la clave para conectarnos.
+- En el host escribimos localhost agregamos dos puntos y el puerto por el que deseamos ingresar en este caso el **9001**, luego simplemente ingresamos la clave para conectarnos.
 
 ## Error en OSM
 
@@ -44,6 +46,7 @@ Es necesario instalar este java, sin desintalar los que haya para que el osm pue
 <a href="https://drive.google.com/file/d/1fbxlWoyMaMrWJNoJh26ghMlnA13ObeP4/view?usp=sharing" target="_blank"><b>JAVA PARA EL OSM</b></a>
 
 ## Mensaje de error en varias apps
+
 ![error](./img/receiver.png "error")
 Este error se encuentra entre uno de los más comunes y ocurre principalmente en clientes de Venezuela, debido a los constantes cortes de servicio eléctrico. Algunas de las causas más comunes son:
 
@@ -54,10 +57,11 @@ Abrimos el administrador de tareas y nos posicionamos en la pestaña "Servicios"
 Sino, continuamos con la siguiente opción.
 
 ### El Archivo config ha desaparecido
+
 Para constatar que este sea el problema nos dirigimos a la carpeta de instalación de 365Connect, generalmente: `C:\Program Files (x86)\365Monitoreo.com\365Connect Pro` . Luego ingresamos en la carpeta conf, y allí deberían haber dos archivos:
 
-* config.ini
-* config_bk.ini
+- config.ini
+- config_bk.ini
 
 Si falta el archivo config.ini o está vació, podemos solucionar este problema abriendo config_bk en un blog de notas, copiando el contenido al archivo config.
 
@@ -72,6 +76,7 @@ Ingresamos al SQL Management Studio, nos conectamos al servidor y observamos que
 Para solucionarlo ejecutamos alguno de los siguientes códigos, para versión Lite y versión Pro, respectivamente.
 
 Version 1
+
 ```
 EXEC sp_resetstatus [365DB];
 ALTER DATABASE [365DB] SET EMERGENCY
@@ -80,7 +85,9 @@ ALTER DATABASE [365DB] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
 DBCC CheckDB ([365DB], REPAIR_ALLOW_DATA_LOSS)
 ALTER DATABASE [365DB] SET MULTI_USER
 ```
+
 Version 2
+
 ```
 EXEC sp_resetstatus [365DBV2];
 ALTER DATABASE [365DBV2] SET EMERGENCY
@@ -89,6 +96,7 @@ ALTER DATABASE [365DBV2] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
 DBCC CheckDB ([365DBV2], REPAIR_ALLOW_DATA_LOSS)
 ALTER DATABASE [365DBV2] SET MULTI_USER
 ```
+
 Luego cerrar el SQL Management Studio, y abrirlo.
 
 ## Base de Datos en modo Usuario único/Single user
@@ -99,8 +107,8 @@ El problema suele suceder cuando se restaura un respaldo de la base de datos, se
 
 ![sql](./img/sql_config.jpg "usuario unico")
 
-
 Volvemos a iniciar el servicio, y ejecutamos el siguiente comando SQL:
+
 ```
 -- Start in master
 USE MASTER;
@@ -114,28 +122,29 @@ GO
 
 ### Backups Programados mediante el Agente SQL
 
-* Abrir el SQL Management Studio y conectar con la base de datos
+- Abrir el SQL Management Studio y conectar con la base de datos
 
-* Ubicar la carpeta Administración->Planes de mantenimiento, hacer clic derecho y crear un Nuevo plan de mantenimiento
-![backup](./img/new_plan.jpg "nuevo plan")
-* Ingresar el nombre del nuevo plan de mantenimiento y luego hacer clic en el icono de calendario para Configurar la frecuencia.
-![backup](./img/plan_schedule.jpg "plan horario")
-*  Establecer los parametros segun los requerimientos del cliente y hacer clic en aceptar.
-![backup](./img/plan_frecuencia.jpg "plan frecuencia")
-* En la parte derecha de la ventana hacer click en donde dice `Cuadro de Herramientas`, desplegara una lista de Tareas de plan de mantenimiento. Ubicar la tarea Copia de seguridad de base de datos y la arrastramos hacia la derecha.
-![backup](./img/plan_tarea.jpg "plan tarea")
-* Hacer doble clic en el nuevo componente para configurar los parametros de mantenimiento.
-![backup](./img/plan_component.jpg "plan frecuencia")
-* En la pestaña general podemos seleccionar la base de datos a la cual se le va a realizar mantenimiento, lo recomendable es hacer respaldo de 365DBV2, tambien es posible programar respaldo para 365ReceiverGPS. En la pestaña destino se configura el directorio donde se van a almacenar las copias de seguridad.
-![backup](./img/plan_general.jpg "plan pestaña general")
-* En la pestaña Opciones es posible configurar un vencimiento para las copias de seguridad.
-![backup](./img/plan_opc.jpg "plan opciones")
-* Una vez configurado el respaldo hacer clic derecho en la pestaña del plan de mantenimiento y seleccionar la opción guardar los elementos seleccionados.
-![backup](./img/plan_save.jpg "plan guardar")
-* Se puede verificar que se creo el mantenimiento ubicando el agente de SQL Server en la carpeta trabajos debe aparecer el subplan del respaldo creado. desde aqui tambien se puede ejecutar el respaldo manualmente.
-![backup](./img/plan_verifi.jpg "plan frecuencia")
+- Ubicar la carpeta Administración->Planes de mantenimiento, hacer clic derecho y crear un Nuevo plan de mantenimiento
+  ![backup](./img/new_plan.jpg "nuevo plan")
+- Ingresar el nombre del nuevo plan de mantenimiento y luego hacer clic en el icono de calendario para Configurar la frecuencia.
+  ![backup](./img/plan_schedule.jpg "plan horario")
+- Establecer los parametros segun los requerimientos del cliente y hacer clic en aceptar.
+  ![backup](./img/plan_frecuencia.jpg "plan frecuencia")
+- En la parte derecha de la ventana hacer click en donde dice `Cuadro de Herramientas`, desplegara una lista de Tareas de plan de mantenimiento. Ubicar la tarea Copia de seguridad de base de datos y la arrastramos hacia la derecha.
+  ![backup](./img/plan_tarea.jpg "plan tarea")
+- Hacer doble clic en el nuevo componente para configurar los parametros de mantenimiento.
+  ![backup](./img/plan_component.jpg "plan frecuencia")
+- En la pestaña general podemos seleccionar la base de datos a la cual se le va a realizar mantenimiento, lo recomendable es hacer respaldo de 365DBV2, tambien es posible programar respaldo para 365ReceiverGPS. En la pestaña destino se configura el directorio donde se van a almacenar las copias de seguridad.
+  ![backup](./img/plan_general.jpg "plan pestaña general")
+- En la pestaña Opciones es posible configurar un vencimiento para las copias de seguridad.
+  ![backup](./img/plan_opc.jpg "plan opciones")
+- Una vez configurado el respaldo hacer clic derecho en la pestaña del plan de mantenimiento y seleccionar la opción guardar los elementos seleccionados.
+  ![backup](./img/plan_save.jpg "plan guardar")
+- Se puede verificar que se creo el mantenimiento ubicando el agente de SQL Server en la carpeta trabajos debe aparecer el subplan del respaldo creado. desde aqui tambien se puede ejecutar el respaldo manualmente.
+  ![backup](./img/plan_verifi.jpg "plan frecuencia")
 
 ### Limpieza de tramas y mensajería
+
 Algunas veces el cliente requiere eliminar información de la base datos ya que esta ocupa mucho espacio en el disco, con lo cual se dejará la información de los ultimos 2 meses eliminando por completo los meses anteriores, para ello podemos ejecutar este script:
 
 ```
@@ -149,11 +158,13 @@ DELETE FROM t365_TramasProcesadas WHERE (Fecha < GETDATE() - 60)
 DELETE FROM t365_TramasAlertas WHERE (Fecha < GETDATE() - 60)
 DELETE FROM t365_TramasProcesadasObservaciones WHERE (Fecha < GETDATE() - 60)
 ```
+
 :::warning[Importante]
 Se puede cambiar cuantos meses de información quedaran, cambiando el número 60 que es equivalente a 2 meses.
 :::
 
 ### Limpieza de ordenes de servicio
+
 Algunas veces el cliente requiere empezar con las ordenes de servicio desde cero, para ello podemos ejecutar este script:
 
 ```
@@ -165,7 +176,7 @@ TRUNCATE TABLE [t365_OrdSerLog]
 TRUNCATE TABLE [t365_OrdSerItems]
 TRUNCATE TABLE [t365_OrdRecordRelacionados]
 TRUNCATE TABLE [t365_OrdRecordatorios]
-TRUNCATE TABLE  [t365_OrdenServicio]  
+TRUNCATE TABLE  [t365_OrdenServicio]
 ```
 
 ### Como reducir los logs de SQL
@@ -221,22 +232,24 @@ Cuando un cliente no pueda entrar desde la aplicación 365client, hay que elimin
 ## Problemas con Base de Datos
 
 ### No se puede conectar con el motor de sql
+
 ![error](../../instalacion-y-configuracion/instalacion-y-actualizacion/img/Install_Config/sql/365_errorsql.png "error modo suspect")
 Ocurre muy pocas veces, no es posible detener o reiniciar el servicio de SQLServer. Para solucionarlo, en primer lugar creamos un respaldo de las bases de datos, y luego debemos desintalar Microsoft SQL Server 20xx 64 bits. Y reinstalar .
 **mejorar**
 
 ### Error 'The conversion of a nvarchar data type to a datetime data type resulted in an out-of-range value' en version de SQL Server 2016
+
 El problema está relacionado con el idioma del usuario de base de datos, para solucionarlo hay que seguir los siguientes pasos.
 
 1. **Ingresar a SQL Server Management Studio**
 
 2. **En el explorador de Objetos buscar la carpeta Seguridad->Inicios de Sesión**
-![error](../../instalacion-y-configuracion/instalacion-y-actualizacion/img/Install_Config/sql/sqldate.png "error date out of range")
+   ![error](../../instalacion-y-configuracion/instalacion-y-actualizacion/img/Install_Config/sql/sqldate.png "error date out of range")
 
 3. **Hacer clic derecho al usuario sa, y seleccionar Propiedades**
 
 4. **En la parte inferior, seleccionar 'Spanish' como idioma predeterminado.**
-![error](../../instalacion-y-configuracion/instalacion-y-actualizacion/img/Install_Config/sql/sqldate2.png "error date out of range")
+   ![error](../../instalacion-y-configuracion/instalacion-y-actualizacion/img/Install_Config/sql/sqldate2.png "error date out of range")
 
 5. **Guardar los cambios**
 
@@ -246,7 +259,7 @@ El problema esta relacionado con las key de firebase duplicadas, se puede soluci
 
 ```
 DELETE t365_FirebaseTokens
- 
+
  WHERE token IN
  (
  SELECT token FROM t365_FirebaseTokens
@@ -260,7 +273,6 @@ DELETE t365_FirebaseTokens
 ```
 
 ## ¿Como agregar otro puerto a la conexion de SQL Server?
-
 
 Para agregar un puerto adicional de conexion de SQL, necesitamos abrir el **Administrador de configuracion de SQL Server 2014**.
 ![sql_manager](./img/sql_manager.png "sql_manager")
@@ -281,7 +293,6 @@ Por ultimo necesitamos reiniciar el servicio de **SQL Server (MSSQLSERVER)**, po
 
 > Para verificar la conexión del SQL [**Probar conexiones SQL con archivos .udl**](pruebas-de-funcionamiento#probar-conexiones-sql-con-archivos-udl)
 
-
 ## ¿Cómo editar instancias SQL en el Config.ini?
 
 Primero abrimos el **Config.ini** generalmente ubicado en `C:\Program Files (x86)\365Monitoreo.com\365Connect Pro\conf`
@@ -290,13 +301,13 @@ Seleccionamos la data encriptada en `Conexion` y la desencriptamos.
 
 ![desencriptar](./img/dataEncriptada.png "desencriptar")
 
->  Dirigirse al siguiente enlace para saber [**¿Cómo desencriptar la data de configuración?**](pruebas-de-funcionamiento#cómo-desencriptar-la-data-de-configuración)
+> Dirigirse al siguiente enlace para saber [**¿Cómo desencriptar la data de configuración?**](./pruebas-de-funcionamiento.md#cómo-desencriptar-la-data-de-configuración)
 
 Luego editamos los valores en `Server` colocando el `Ip` del servidor al que se desea apuntar.
 
 ![valores](./img/desencriptar.png "valores")
 
-> En algunas ocasiones hace falta mencionar la instancia y/o puerto para realizar la conexion, por ejemplo: 
+> En algunas ocasiones hace falta mencionar la instancia y/o puerto para realizar la conexion, por ejemplo:
 
 > xxx.xxx.xxx\instanciaSQL, xxx.xxx.xxx,9433 o xxx.xxx.xxx,9433\instanciaSQL
 
@@ -304,4 +315,4 @@ Luego editamos los valores en `Server` colocando el `Ip` del servidor al que se 
 
 Luego procedemos a encriptar la nueva data editada y sustituirla en el **Config.ini**
 
->  Dirigirse al siguiente enlace para saber [**¿Cómo Encriptar la data de configuración?**](pruebas-de-funcionamiento#cómo-encriptar-la-data-de-configuración)
+> Dirigirse al siguiente enlace para saber [**¿Cómo Encriptar la data de configuración?**](./pruebas-de-funcionamiento.md#cómo-encriptar-la-data-de-configuración)

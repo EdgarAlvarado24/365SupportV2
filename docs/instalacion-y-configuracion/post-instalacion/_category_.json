@@ -1,0 +1,8 @@
+{
+  "label": "Post Instalacion",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Todos lo que necesitas saber despues de instalar 365."
+  }
+}

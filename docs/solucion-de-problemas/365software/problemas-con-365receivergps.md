@@ -153,4 +153,4 @@ Este caso ocurre generalmente en entorno de desarrollo, es decir, cuando no se u
 
 > Nota: el java 8 Update 202 que utiliza 365 es de 64bits.
 
-[Link para descargar Java](descargar-instaladores)
+[Link para descargar Java](../../instalacion-y-configuracion/descargar-instaladores/descargar-instaladores.md)

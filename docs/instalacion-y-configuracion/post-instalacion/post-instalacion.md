@@ -64,7 +64,7 @@ Una vez terminadas de ejecutar las migraciones, deberíamos poder ingresar a la 
 
 Para entrar a la empresa sin tener ningún usuario creado necesitaremos ingresar a la plataforma con el usuario 365. Dirigirnos al modulo de usuarios y crear un usuario con los datos proporcionados por el cliente.
 
-Para mayor informacion dirigase a [ Usuarios](usuarios#).
+Para mayor informacion dirigase a [Usuarios](../../manual-y-faq/365connectPro/usuarios.md).
 
 ## Crear Prefijos
 

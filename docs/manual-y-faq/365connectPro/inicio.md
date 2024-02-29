@@ -5,7 +5,7 @@ sidebar_label: Inicio
 sidebar_position: 1
 ---
 
-La plataforma 365connect Pro es un software para la gestión y automatización de una central de monitoreo, que integra alarmas, CCTV,  vehículos, personas, mascotas, guardias, patrullas de reacción y supervisión. Este documento pretende ser una guía o un manual para los usuarios de 365connect Pro , en su contenido podremos mostrar los aspectos más esenciales, junto con las diferentes opciones y funciones que posee el software, así mismo se pretende servir como un instrumento de ayuda complementaria a los diferentes clientes, para que así, puedan tener un mayor acercamiento a la plataforma web y aprendan a usarla de una
+La plataforma 365connect Pro es un software para la gestión y automatización de una central de monitoreo, que integra alarmas, CCTV, vehículos, personas, mascotas, guardias, patrullas de reacción y supervisión. Este documento pretende ser una guía o un manual para los usuarios de 365connect Pro , en su contenido podremos mostrar los aspectos más esenciales, junto con las diferentes opciones y funciones que posee el software, así mismo se pretende servir como un instrumento de ayuda complementaria a los diferentes clientes, para que así, puedan tener un mayor acercamiento a la plataforma web y aprendan a usarla de una
 manera correcta.
 
 El manual se constituye en una guía del paso a paso que debe seguir el usuario para desarrollar cada una de las funciones implementadas en la plataforma web de monitoreo principal, desarrollado por 365Connect Software. Los temas que se encuentran en este documento brindan el conocimiento básico necesario sobre el sistema, lo que contiene, junto con las funciones que se pueden realizar en él.
@@ -13,19 +13,22 @@ El manual se constituye en una guía del paso a paso que debe seguir el usuario 
 ## Requerimientos para Equipos con fines de Monitoreo y uso de la plataforma web
 
 ### Mínimo:
-* Sistema Operativo: Windows 7 o Superior, Cualquier Distribución GNU/Linux
-* Procesador: Dual Core a 2+ GHz
-* Memoria: 2 GB de RAM
-* Navegador web actualizado
+
+- Sistema Operativo: Windows 7 o Superior, Cualquier Distribución GNU/Linux
+- Procesador: Dual Core a 2+ GHz
+- Memoria: 2 GB de RAM
+- Navegador web actualizado
 
 ## Requerimientos para Servidores
 
 ### Mínimo:
-* Sistema Operativo: Windows 7 x64 bits, Windows Server 2012 o Superior
-* Procesador: i5 Quad Core de tercera generación
-* Memoria: 8 GB de RAM
+
+- Sistema Operativo: Windows 7 x64 bits, Windows Server 2012 o Superior
+- Procesador: i5 Quad Core de tercera generación
+- Memoria: 8 GB de RAM
 
 ## Ingreso al Sistema
+
 Como se mencionó en la introducción Software 365Connect Pro es una plataforma Web, por tanto es posible acceder a ella desde cualquier dispositivo que disponga de un navegador actualizado. Eso incluye pero no se limita a Computadoras (Sistema Operativo Windows, GNU/Linux y MacOS), Teléfonos Inteligentes, Tablets, etc. En la Barra de Direcciones de su navegador elegido ingrese la dirección de acceso a 365Connect Pro:
 
 - Para acceder desde dentro del servidor `localhost:1080/365`.
@@ -36,18 +39,18 @@ Como se mencionó en la introducción Software 365Connect Pro es una plataforma 
 
 ### Ingreso de Tipos de Usuarios al Sistema
 
-* [**Acceder como Clientes**](clientes#acceder-como-cliente)
+- [**Acceder como Clientes**](./clientes.md#acceder-como-cliente)
 
-* [**Acceder como Usuario de Empresa**](usuarios#acceder-como-usuario-de-empresa)
+- [**Acceder como Usuario de Empresa**](./usuarios.md#acceder-como-usuario-de-empresa)
 
-* [**Acceder como Asociado**](asociados#acceder-como-asociado)
+- [**Acceder como Asociado**](./asociados.md#acceder-como-asociado)
 
-* [**Acceder como Usuario de un Cliente**](clientes#acceder-como-usuario-de-cliente)
+- [**Acceder como Usuario de un Cliente**](./clientes.md#acceder-como-usuario-de-cliente)
 
+### Selección de Módulos
 
-### Selección de Módulos 
-Al ingresar a la plataforma, se observa un menú con los diferentes módulos que agrupan las funciones del software de acuerdo a su origen.  Se puede acceder a través de los módulos desde la página principal.
- 
+Al ingresar a la plataforma, se observa un menú con los diferentes módulos que agrupan las funciones del software de acuerdo a su origen. Se puede acceder a través de los módulos desde la página principal.
+
 ![Menú Principal](./img/inicio/modul2.jpg "Menú Principal")
 
 o desde la barra de la izquierda.
@@ -74,27 +77,30 @@ o desde la barra de la izquierda.
 
 **Ordenes de Servicio:** El modulo ordenes de servicio esta creado específicamente para atender las ordenes de servicio técnico, las cuales son creadas por un operador o un administrador, pero solicitadas por un cliente mediante un correo electrónico o vía telefónica. En este modulo se muestran las notificaciones generales, las notificaciones mencionadas que son las notificaciones en donde se pueden mencionar al técnico o algún otro trabajador y las notificaciones privadas que son las que hace con la intención de que solo puedan ser vistas por los dos usuarios que interactúa (técnico y operador).
 
-**Reportes:** Este modulo esta diseñado para que los usuarios pertenecientes a la empresa puedan cuantificar y obtener a un registro desde los tipos de señales recibidas en la plataforma, los estatus de los dispositivos, el registro de acciones de usuarios hasta los gps sin comunicar. 
+**Reportes:** Este modulo esta diseñado para que los usuarios pertenecientes a la empresa puedan cuantificar y obtener a un registro desde los tipos de señales recibidas en la plataforma, los estatus de los dispositivos, el registro de acciones de usuarios hasta los gps sin comunicar.
 
 **Parámetros:** En el módulo Parámetros se establecen todas las opciones de configuración empresariales.
 
-**Contactanos:** Permite comunicarse con la empresa que posee el software. 
+**Contactanos:** Permite comunicarse con la empresa que posee el software.
 
 # Componentes frecuentes en la plataforma
 
 Los componentes frecuentes son herramientas que nos permiten visualizar mejor los elementos de la platafomra de una mejor forma o mas especifica, la informacion contenido en un modulo o seccion del mismo.
 
-## Registro por Pagina  
-Muestra el numero máximo de registros que se mostraran por pagina dependiendo del modulo en que se encuentre el usuario,  este numero por defecto es de 25.
+## Registro por Pagina
 
-![Registro Por Pagina](./img/inicio/registroPorPagina.png)   
- 
-## Selección de Empresa 
+Muestra el numero máximo de registros que se mostraran por pagina dependiendo del modulo en que se encuentre el usuario, este numero por defecto es de 25.
+
+![Registro Por Pagina](./img/inicio/registroPorPagina.png)
+
+## Selección de Empresa
+
 Muestra todas las empresas con la que puede interactuar el usuario en los distintos módulos.
 
-![Selección de Empresa](./img/inicio/selectEmpresa.png )   
+![Selección de Empresa](./img/inicio/selectEmpresa.png)
 
-## Buscador   
-Realiza una búsqueda detallada mediante la información que se muestra en el modulo. 
+## Buscador
 
-![Buscador](./img/inicio/buscar.png )
+Realiza una búsqueda detallada mediante la información que se muestra en el modulo.
+
+![Buscador](./img/inicio/buscar.png)

@@ -3,7 +3,9 @@ id: 365-client-app
 title: 365Client
 sidebar_label: 365Client
 ---
----------------------------------------------------
+
+---
+
 # Descripción
 
 365Client es una aplicacion global de seguridad para el control - gestión y monitoreo movil. Esta App funciona para la gestión de sus dispositivos conectados a 365Connect
@@ -12,21 +14,21 @@ sidebar_label: 365Client
 
 ## Android
 
-*	Ingrese a la Playstore desde su dispositivo android e introduzca en la sección de búsqueda la combinación 365Client.
+- Ingrese a la Playstore desde su dispositivo android e introduzca en la sección de búsqueda la combinación 365Client.
 
 ![search](../apps-mobiles/img/apps/clientapp/search.jpeg "search")
 
-*	Seleccione la opción de instalación presionando el botón verde que dice instalar para empezar con la descarga.
+- Seleccione la opción de instalación presionando el botón verde que dice instalar para empezar con la descarga.
 
 ![install-client](../apps-mobiles/img/apps/clientapp/install-client.jpeg "Instalar 365Client")
 
-* Una vez instalada, podemos acceder a la aplicación.
+- Una vez instalada, podemos acceder a la aplicación.
 
 <!--## Iphone -->
 
 <!--*No esta disponible en la tienda*-->
 
-## Configurar Servidor 
+## Configurar Servidor
 
 En esta pantalla debe introducir la dirección del servidor y el puerto, esta información la proporciona su proveedor de Servicio. Si los datos son correctos pasará a la siguiente pantalla.
 
@@ -48,15 +50,16 @@ En esta pantalla se le mostrara una lista con todos los dispositivos adjudicados
 
 ![principal](../apps-mobiles/img/apps/clientapp/principal2.jpeg "Pantalla Principal")
 
-### Ir al mapa general 
+### Ir al mapa general
+
 Le permite ver la ubicación de cada uno de los dispositivos en un mapa general.
 
 ![mapa-general](../apps-mobiles/img/apps/clientapp/mapa-general.jpg "Mapa General")
 
-### Buscador: 
+### Buscador:
+
 Le permite buscar un dispositivo en específico mediante el nombre del dispositivo. Al hacer clic en el boton de buscar ubicado en la parte superior derecha de la pantalla se le mostrara una nueva pantalla con toda la lista de los dispositivo que posee.
 ![list_dispositivos](../apps-mobiles/img/apps/clientapp/list_dispositivos.jpeg "list_dispositivos")
-
 
 ## Opciones
 
@@ -67,9 +70,11 @@ Al pulsar este boton se nos despliegan varias opciones las cuales nos permiten c
 ![opciones](../apps-mobiles/img/apps/clientapp/opciones.jpeg "opciones")
 
 ### Informacion del Dispositivo
+
 El contenido de esta seccion lo podemos ver mas adelante en la card del mismo nombre.
 
 ### Sonido de Notificaciones
+
 En esta seccion podemos configurar los sonidos de la notificaciones que tiene por defecto el telefono y darle sonidos mas acorde a señales de alarma. Una vez dentro de esta seccion se nos mostrara una pantalla que nos permitira seleccionar y reproducir el sonido elegido.
 
 ![sonidos](../apps-mobiles/img/apps/clientapp/sonidos.jpeg "sonidos")
@@ -82,9 +87,12 @@ Despues presionamos el boton de play para reproducir el sonido, al momento que s
 
 ![sonidos-select](../apps-mobiles/img/apps/clientapp/sonidos-select.jpeg "sonidos-select")
 
-###  365pass
+### 365pass
+
 para activar el 365pass hay que hacer clic en el botón en forma de candado ubicado en la parte superior derecha de la pantalla.
+
 #### ¿Qué es el 365pass?
+
 Es un nivel de autenticación adicional para la app 365client, que impide la entrada a la app 365client aunque ya haya iniciado sesion en ella, ya que pide otra contraseña personalizada distinta a la del usuario y login del cliente.
 
 ![365pass](../apps-mobiles/img/apps/clientapp/365pass.jpeg "365pass Configuracion")
@@ -98,11 +106,12 @@ Luego cada vez que accedas a la aplicación de 365client te solicitara la clave 
 ![365pass-inicio](../apps-mobiles/img/apps/clientapp/365pass-inicio.jpeg "365pass Inicio")
 
 ### Cerrar Sesion
+
 Permite terminar la sesion en donde se esta conectado.
 
 ## Cards
 
-Al seleccionar un dispositivo se muestra todas las pestañas que tiene el mismo, en la plataforma web. 
+Al seleccionar un dispositivo se muestra todas las pestañas que tiene el mismo, en la plataforma web.
 
 ![principal](../apps-mobiles/img/apps/clientapp/principal2.jpeg "Pantalla Principal")
 
@@ -132,15 +141,15 @@ Presionamos el botón de mapa ubicado en la parte inferior derecha de la pantall
 
 ### ¿Cómo Hacer un Seguimiento?
 
-*	Para realizar un seguimiento presionamos el botón con el icono ubicación del mapa, el cual nos desplegara una ventana con la búsqueda avanzada.
+- Para realizar un seguimiento presionamos el botón con el icono ubicación del mapa, el cual nos desplegara una ventana con la búsqueda avanzada.
 
 ![seguimiento-search](../apps-mobiles/img/apps/clientapp/seguimiento-search.jpeg "Seguimiento Busqyeda Avanzada")
 
-*	Luego seleccionamos por el tipo de categoría que queremos realizar las cuales son rutas, paradas y exceso de velocidad.
+- Luego seleccionamos por el tipo de categoría que queremos realizar las cuales son rutas, paradas y exceso de velocidad.
 
 ![seguimiento-search2](../apps-mobiles/img/apps/clientapp/seguimiento-search2.jpeg "Seguimiento Busqyeda Avanzada 2")
 
-*	Una vez seleccionadas las dos fechas entre las que deseamos buscar presionamos el botón ir, para que luego nos genere en el mapa el resultado de la búsqueda deseada.
+- Una vez seleccionadas las dos fechas entre las que deseamos buscar presionamos el botón ir, para que luego nos genere en el mapa el resultado de la búsqueda deseada.
 
 ![seguimiento-ruta](../apps-mobiles/img/apps/clientapp/seguimiento-ruta.jpeg "Seguimiento Ruta")
 
@@ -154,11 +163,11 @@ En esta sección se muestra los tipos de comandos que se le pueden enviar al dis
 
 ### ¿Cómo Enviar un Comando?
 
-*   Una vez en la sección de comandos seleccionamos la forma de envió del comando que necesitamos trasmitir al dispositivo, ya sea GPRS o SMS.
+- Una vez en la sección de comandos seleccionamos la forma de envió del comando que necesitamos trasmitir al dispositivo, ya sea GPRS o SMS.
 
 ![comandos1](../apps-mobiles/img/apps/clientapp/comandos1.jpeg "Comandos Forma de Envio")
 
-*   Luego seleccionamos el tipo de comando entre todos los que posea el dispositivo, luego le presionamos el botón ir y listo.
+- Luego seleccionamos el tipo de comando entre todos los que posea el dispositivo, luego le presionamos el botón ir y listo.
 
 ![comandos2](../apps-mobiles/img/apps/clientapp/comandos2.jpeg "Tipos de Comandos")
 
@@ -168,7 +177,7 @@ Si no te sale una notificación al intentar enviar comandos a un dispositivo, es
 
 ![comandos-noti](../apps-mobiles/img/apps/clientapp/comandos-noti.jpeg "Notificacion Comandos")
 
-* Una vez el comando sea enviado se mostrara el siguiente mensaje en la aplicacion 365client.
+- Una vez el comando sea enviado se mostrara el siguiente mensaje en la aplicacion 365client.
 
 ![comand_send](../apps-mobiles/img/apps/clientapp/comand_send.jpg "comand send")
 
@@ -176,28 +185,27 @@ Si no te sale una notificación al intentar enviar comandos a un dispositivo, es
 
 Los mensajes normalmente son enviados desde el servidor pero esta es solo la forma predeterminada como viene configurado el envio de mensajes, esto se puede cambiar de la siguiente manera:
 
-* Seleccionamos el dispositivo que deseamos y nos vamos al panel del dispositivo.
+- Seleccionamos el dispositivo que deseamos y nos vamos al panel del dispositivo.
 
 ![panel_cliente](../apps-mobiles/img/apps/clientapp/panel_cliente.png "panel cliente")
 
-* Una vez en el panel dispositibo damos clic en el boton editar dispositivo, ubicado en la parte superior derecha de la pantalla.
+- Una vez en el panel dispositibo damos clic en el boton editar dispositivo, ubicado en la parte superior derecha de la pantalla.
 
 ![panel_cliente_edit](../apps-mobiles/img/apps/clientapp/panel_cliente_edit.png "panel cliente edit")
 
-* Luego nos vamos a la etiqueta **Comandos desde** y hacemos clic encima del interruptor que dice servidor, el cual pasara a telefono, lo cual significa que ahora enviara comandos desde la aplicacion de mensajeria del telefono.
+- Luego nos vamos a la etiqueta **Comandos desde** y hacemos clic encima del interruptor que dice servidor, el cual pasara a telefono, lo cual significa que ahora enviara comandos desde la aplicacion de mensajeria del telefono.
 
 ![panel_cliente_edit2](../apps-mobiles/img/apps/clientapp/panel_cliente_edit2.png "panel cliente edit2")
 
-* Una vez hecho esto, le damos clic en el boton guardar y listo, cuando enviemos un comando desde la aplicacion 365client se abrira nuestra aplicacion de mensajes configurada o nos permitira seleccionar una de las que tenemos disponbile
+- Una vez hecho esto, le damos clic en el boton guardar y listo, cuando enviemos un comando desde la aplicacion 365client se abrira nuestra aplicacion de mensajes configurada o nos permitira seleccionar una de las que tenemos disponbile
 
 ![select_mensajeria](../apps-mobiles/img/apps/clientapp/select_mensajeria.jpg "select mensajeria")
 
-
-* Luego se nos mostrara el comando que seleccionamos, al sim del numero de telefono configurado y con la clave del gps configurado 
+- Luego se nos mostrara el comando que seleccionamos, al sim del numero de telefono configurado y con la clave del gps configurado
 
 ![app_sms](../apps-mobiles/img/apps/clientapp/app_sms.jpg "app sms")
 
-* y la persona sera el responsable el mismo de enviar el comando presionando el boton enviar de la aplicacion de mensajes
+- y la persona sera el responsable el mismo de enviar el comando presionando el boton enviar de la aplicacion de mensajes
 
 ## Zonas
 
@@ -231,7 +239,7 @@ En esta sección se muestran los horarios creados desde la plataforma web, se pu
 
 ![horarios](../apps-mobiles/img/apps/clientapp/horarios.jpeg "Horarios")
 
-Para más información de los horarios puede consultar en [Horarios.](dispositivos#horarios)
+Para más información de los horarios puede consultar en [Horarios.](../365connectPro/dispositivos.md#horarios)
 
 ## Historial del Dispositivo
 
@@ -249,19 +257,19 @@ Luego simplemente seleccionamos el día que queremos ver y se nos mostraran toda
 
 ### ¿Cómo utilizar la búsqueda avanzada del historial?
 
-*	Si queremos buscar una señal en específico de un dispositivo tenemos debemos historial del mismo y presionar el botón con forma de lupa.
+- Si queremos buscar una señal en específico de un dispositivo tenemos debemos historial del mismo y presionar el botón con forma de lupa.
 
 ![historial_avanzado1](../apps-mobiles/img/apps/clientapp/historial_avanzado1.jpeg "historial Avanzado 1")
 
-* Luego se nos desplegara una ventana, en la cual tendremos que seleccionar la fecha de inicio de la búsqueda y la fecha final.
+- Luego se nos desplegara una ventana, en la cual tendremos que seleccionar la fecha de inicio de la búsqueda y la fecha final.
 
 ![historial_avanzado2](../apps-mobiles/img/apps/clientapp/historial_avanzado2.jpeg "historial Avanzado 2")
 
-*	Para luego elegir entre las muchas categorías de señales que hay, y elegimos la que más se adecue a nuestras necesidades.
+- Para luego elegir entre las muchas categorías de señales que hay, y elegimos la que más se adecue a nuestras necesidades.
 
 ![historial_avanzado3](../apps-mobiles/img/apps/clientapp/historial_avanzado3.jpeg "historial Avanzado 3")
 
-*	Después de elegir la categoría simplemente presionamos el botón ir y se nos mostrara el historial pero solo con las señales entre los días elegidos y de la categoría que seleccionamos.
+- Después de elegir la categoría simplemente presionamos el botón ir y se nos mostrara el historial pero solo con las señales entre los días elegidos y de la categoría que seleccionamos.
 
 ## Notas
 
@@ -293,11 +301,11 @@ Es posible notificar o confirmar señales desde la aplicacion 365Client. Estos e
 
 ### ¿Como autoprocesar señales?
 
-* Usted recibirá una notificación push cuando se genere una señal autoprocesable, debe responder si es una falsa alarma seleccionando la opción si o no.
+- Usted recibirá una notificación push cuando se genere una señal autoprocesable, debe responder si es una falsa alarma seleccionando la opción si o no.
 
 ![autoprocesar](../365connectPro/img/monitoreo/autoprocesar/client1.jpg "Autoprocesar")
 
-* Si elije Si, entonces aparecerá una pantalla donde debe elegir la clave master de entre las opciones disponibles. 
+- Si elije Si, entonces aparecerá una pantalla donde debe elegir la clave master de entre las opciones disponibles.
 
 ![autoprocesar](../365connectPro/img/monitoreo/autoprocesar/client2.jpg "Autoprocesar")
 
@@ -305,6 +313,6 @@ Al elegir correctamente la respuesta secreta, se notificará a la central y se p
 
 De lo contrario se identificara la señal en la central con un icono en forma de letra x detallando que la respuesta secreta fue invalida.
 
-* Si elije no, entonces el icono de la señal en el monitoreo indicara que el evento está verificado y requiere la atención del operador de monitoreo.
+- Si elije no, entonces el icono de la señal en el monitoreo indicara que el evento está verificado y requiere la atención del operador de monitoreo.
 
-Para más información consulte [Señales Autoprocesables en monitoreo.](monitoreo#señales-autoprocesables)
+Para más información consulte [Señales Autoprocesables en monitoreo.](../365connectPro/monitoreo.md#señales-autoprocesables)

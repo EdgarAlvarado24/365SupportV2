@@ -77,7 +77,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "manualAndFaqSidebar",
             position: "left",
-            label: "Preguntas Frecuentes FAQ",
+            label: "Manual y FAQ",
           },
           {
             type: "docSidebar",
@@ -94,38 +94,42 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "365Connect Pro",
+                to: "/docs/manual-y-faq/365connectPro/inicio",
+              },
+              {
+                label: "365Client",
+                to: "/docs/manual-y-faq/apps-mobiles/365-client-app",
+              },
+              {
+                label: "365Guard",
+                to: "/docs/manual-y-faq/apps-mobiles/365-guard-app",
+              },
+              {
+                label: "365SOS",
+                to: "/docs/manual-y-faq/apps-mobiles/365-sos-app",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Ayuda",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Preguntas Frecuentes",
+                href: "/docs/manual-y-faq/faq/preguntas-frecuentes",
               },
             ],
           },
           {
-            title: "More",
+            title: "Mas",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Cloud",
+                to: "http://cloud.365monitoreo.com",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "3Monitoreo",
+                href: "https://365monitoreo.com",
               },
             ],
           },
@@ -137,6 +141,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 };
 
 module.exports = config;

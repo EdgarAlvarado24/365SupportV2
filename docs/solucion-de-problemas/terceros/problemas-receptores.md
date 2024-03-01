@@ -23,9 +23,9 @@ Abrir el SG System Console, ir a la sección CPM, Connection. Posteriormente rea
 
 Si solo hay un receptor conectado en la maquina como es el en caso en esta imagen y no se muestra en el **Administrador de dispostivos>Puertos**, posiblemente la maquina perdió el controlador.
 
-<div className="center-img">
+
     ![Puertos_Receptor](./img/Puertos_Receptor.png "Puertos_Receptor")
-</div>
+
 
 :::warning[Importante]
 Los **Puerto de comunicaciones** se usan específicamente para conectar modems y receptores de señales.
@@ -43,25 +43,25 @@ Descargar e instalar el controlador alternativo >[Más Información: sobre dispo
 
 * Abrir el administrador de dispositivos y ubicar el dispositivo con el error "this is not prolific pl2303 please contact your supplier" en la pestaña de dispositivos COM, clic derecho en propiedades y seleccionar "Actualizar controlador"
 
-<div className="center-img">
-    ![administrador_dispositivos](./img/update_driver.jpg "Actualizar controlador")
-</div>
+
+![administrador_dispositivos](./img/update_driver.jpg "Actualizar controlador")
+
 
 * Seleccionar "examinar mi PC en busca de controladores"
 
-<div className="center-img">
-    ![administrador_dispositivos](./img/search_driver.jpg "Examinar controladores")
-</div>
+
+![administrador_dispositivos](./img/search_driver.jpg "Examinar controladores")
+
 
 * Seleccionar en la parte inferior "Elegir en una lista de controladores disponibles en el equipo"
 
-<div className="center-img">
-    ![administrador_dispositivos](./img/select_driver.jpg "Elegir controlador")
-</div>
+
+![administrador_dispositivos](./img/select_driver.jpg "Elegir controlador")
+
 
 * Ubicar el controlador Prolific USB 3.3.2.105, y hacer clic en el boton Siguiente
-<div className="center-img">
-    ![administrador_dispositivos](./img/set_driver.jpg "Seleccionar controlador")
-</div>
+
+![administrador_dispositivos](./img/set_driver.jpg "Seleccionar controlador")
+
 
 Al terminar debería identificar correctamente el dispositivo.

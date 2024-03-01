@@ -13,36 +13,34 @@ en `C:\Program Files (x86)\365Monitoreo.com\365Connect Pro` y ejecutar CifDecif.
 ### ¿Cómo Desencriptar la data de configuración?
 * Se debe pegar la información del archivo en el campo Encriptado.
 
-<div className="center-img">
-    ![encriptar](./img/encript1.png "cifdecif")
-</div>
+![encriptar](./img/encript1.png "cifdecif")
 
 * Ingresar la contraseña de seguridad dentro del campo superior derecho.
 
-<div className="center-img">
-    ![encriptar](./img/encript2.png "cifdecif")
-</div>
+
+![encriptar](./img/encript2.png "cifdecif")
+
 
 * Presionar el boton generar del lado derecho, para mostrar la información desencriptada en el panel de la izquierda.
-<div className="center-img">
-    ![encriptar](./img/encript3.png "cifdecif")
-</div>
+
+![encriptar](./img/encript3.png "cifdecif")
+
 
 ### ¿Cómo Encriptar la data de configuración?
 * Se debe pegar la información del archivo en el campo Desencriptado.
-<div className="center-img">
-    ![desencriptar](./img/desencript1.png "cifdecif")
-</div>
+
+![desencriptar](./img/desencript1.png "cifdecif")
+
 
 * ingresar la contraseña de seguridad dentro del campo superior izquierdo.
-<div className="center-img">
-    ![desencriptar](./img/desencript2.png "cifdecif")
-</div>
+
+![desencriptar](./img/desencript2.png "cifdecif")
+
 
 * Presionar el boton generar del lado izquierdo, para mostrar la información Encriptada en el panel de la derecha.
-<div className="center-img">
-    ![desencriptar](./img/desencript3.png "cifdecif")
-</div>
+
+![desencriptar](./img/desencript3.png "cifdecif")
+
 
 ## Verificar conexion de puertos
 Se debe ingresar a la pagina web para <a href="https://www.testdevelocidad.es/test-de-puertos/
@@ -53,15 +51,15 @@ Se puede simular la conexión de un dispositivo con ayuda de postman para realiz
 
 * Nos ubicamos en la pestaña authorization, en type seleccionamos **Basic Auth**.
 
-<div className="center-img">
-    ![postman traccar](./img/postman_manual1.png "postman")
-</div>
+
+![postman traccar](./img/postman_manual1.png "postman")
+
 
 * En la pestaña headers, nos aseguramos que este configurado como en la siguiente imagen. 
 
-<div className="center-img">
-    ![postman traccar](./img/postman_manual2.png "postman headers")
-</div>
+
+![postman traccar](./img/postman_manual2.png "postman headers")
+
 
 * Hacemos clic al botón send para realizar el envío de posición.
 
@@ -69,19 +67,19 @@ Se puede simular la conexión de un dispositivo con ayuda de postman para realiz
 Para generar un reporte de rutas mediante postman se necesita realizar la siguiente peticion `http://ipdelservidor:9080/getrutas_react` luego necesitamos introducir los datos que espera la peticion.
 
 * Para eso nos posicionamos en la pestaña **Body**, para luego seleccionar la opcion **x-www-form-urlencoded**.
-<div className="center-img">
-    ![postman rutas](./img/postman_rutas.png "postman rutas")
-</div>
+
+![postman rutas](./img/postman_rutas.png "postman rutas")
+
 * En los campos **KEY** y **VALUE**, introducimos los nombres de los variables y el valor de los datos que espera la peticion.
-<div className="center-img">
-    ![postman rutas 1](./img/postman_rutas1.png "postman rutas 1")
-</div>
+
+![postman rutas 1](./img/postman_rutas1.png "postman rutas 1")
+
 >**Nota:** Es importante saber que las variables inicialDate y finalDate estan en formato **Unix Time Stamp**.
 
 * Hacemos clic en el boton send para realizar la peticion y recibir los puntos de la ruta generada.
-<div className="center-img">
-    ![postman rutas 2](./img/postman_rutas2.png "postman rutas 2")
-</div>
+
+![postman rutas 2](./img/postman_rutas2.png "postman rutas 2")
+
 # Prueba de Funcionamiento 365Guard
 
 ## Verificar conexión con Postman
@@ -92,15 +90,15 @@ Para verificar la conexión de la aplicacion 365guard o cualquier otra aplicacio
 
 Aquí esta la única instrucción que se necesita introducir en el header para apuntar al servidor.
 
-<div className="center-img">
-    ![postman2](./img/postman2.png "postman2")
-</div>
+
+![postman2](./img/postman2.png "postman2")
+
 
 Aquí se ve como responde correctamente, con el status y la respuesta.
 
-<div className="center-img">
-    ![postman1](./img/postman1.png "postman1")
-</div>
+
+![postman1](./img/postman1.png "postman1")
+
 
 ## Prueba de conexion TCP con 365ReceiverGPS
 
@@ -109,26 +107,26 @@ Aquí se ve como responde correctamente, con el status y la respuesta.
 * Instalar TCP Test Tool.
 
 * Una vez instalado el TCP Test Tool, lo ejecutamos y nos mostrara la pantalla principal del mismo.
-<div className="center-img">
-    ![TCP_Test_Tools](./img/TCP_Test_Tools.png "TCP Test Tools")
-</div>
+
+![TCP_Test_Tools](./img/TCP_Test_Tools.png "TCP Test Tools")
+
 
 * Introducimos la IP publica del servidor y el puerto por el cual queremos conectarnos, luego presionamos el boton Connect.
-<div className="center-img">
-    ![TCP_Test_Tools](./img/IP_Port.png "TCP Test Tools")
-</div>
+
+![TCP_Test_Tools](./img/IP_Port.png "TCP Test Tools")
+
 
 * Despues introducimos el mensaje que queremos enviar, en la seccion Edit/Send Data y luego presionamos el boton Send.
 
-<div className="center-img">
-    ![TCP_Test_Tools](./img/Edit_Send_Data.png "TCP Test Tools")
-</div>
+
+![TCP_Test_Tools](./img/Edit_Send_Data.png "TCP Test Tools")
+
 
 * Luego revisamos el log de 365ReceiverGPS.
 
-<div className="center-img">
-    ![log-365](./img/log-365.png "log 365")
-</div>
+
+![log-365](./img/log-365.png "log 365")
+
 
 ### Condiciones
 
@@ -141,12 +139,12 @@ Aquí se ve como responde correctamente, con el status y la respuesta.
 ## Prueba de Puertos Abiertos
 
 Para probar que los puertos estan abiertos, se puede utilizar varias herramientas, en 365monitoreo utilizamos la pagina web <a href="https://www.testdevelocidad.es/test-de-puertos/" target="_blank"><b>Test de Velocidad</b></a> para comprobar el estado de los puertos, si los puertos que se utilizan para 365 estan abiertos se mostraran de la siguiente forma.
-<div className="center-img">
-    ![test-puertos](./img/test-puertos.png "test puertos")
-</div>
-<div className="center-img">
-    ![test-puertos-fail](./img/test-puertos-fail.png "test puertos fail")
-</div>
+
+![test-puertos](./img/test-puertos.png "test puertos")
+
+
+![test-puertos-fail](./img/test-puertos-fail.png "test puertos fail")
+
 
 ## Prueba de Envio envio de eventos con Packet Sender
 
@@ -155,13 +153,13 @@ Para probar que los puertos estan abiertos, se puede utilizar varias herramienta
 * Instalar Packet Sender.
 
 * Una vez instalado el Packet Sender, lo ejecutamos y nos mostrara la pantalla principal del mismo.
-<div className="center-img">
-    ![packet sender clean](./img/packet_sender_clean.png "packet sender clean")
-</div>
+
+![packet sender clean](./img/packet_sender_clean.png "packet sender clean")
+
 * El packet sender se divide en 3 partes los cuales son el formulario, los paquetes guardados y los logs. En el formulario podemos ver los campos 
-<div className="center-img">
-    ![packet sender form](./img/packet_sender_form.png "packet sender form")
-</div>
+
+![packet sender form](./img/packet_sender_form.png "packet sender form")
+
 
 |**Campo**|**Descripcion**|
 |---|---|
@@ -172,19 +170,19 @@ Para probar que los puertos estan abiertos, se puede utilizar varias herramienta
 |Resend Delay| Tiempo de re-envio |
 
 * En la seccion de paquetes guardados podemos ver toda la informacion enviada anteriormente, en el formulario.
-<div className="center-img">
+
 ![packet sender form 1](./img/packet_sender_form1.png "packet sender form 1")
-</div>
+
 En el segmento de los logs podemos ver el registro de los paquetes que enviamos con toda la informacion.
-<div className="center-img">
+
 ![packet sender form 2](./img/packet_sender_form2.png "packet sender form 2")
-</div>
+
 * Luego se introduce el paquete que deseamos enviar, la IP publica del servidor o si esta conectado en la misma red la IP local y el puerto por el cual queremos conectarnos, luego presionamos el boton send.
 
 >**Nota:** Para que el receptor permanezca conectado al enviar una trama con esta aplicación,es necesario marcar la casilla **persistent TCP**.
-<div className="center-img">
-    ![packet sender](./img/packet_sender.png "packet sender")
-</div>
+
+![packet sender](./img/packet_sender.png "packet sender")
+
 ## ¿Cómo activar el modo debug de 365Receiver?
 
 Se puede activar el modo debug modificando el archivo config, para ello se puede sustituir el siguiente código en el archivo config de 365Receiver y posteriormente reiniciar el programa.
@@ -228,9 +226,9 @@ Para verificar la conexion con los receptores por puerto serial necesitamos util
 ### ¿Como utilizar el terminal?
 
 1. Vamos a la carpeta *365Monitoreo.com\365Connect Pro\Utilitarios* o *365Monitoreo.com\365Connect Lite\Utilitarios* dependiendo de la version del 365 que este instalado en el ordenador y nos vamos al programa terminal.exe
-<div className="center-img">
-    ![terminal](./img/terminal.png "terminal")
-</div>
+
+![terminal](./img/terminal.png "terminal")
+
 
 2. Una vez ejecutado el programa se nos mostrara una ventana con todos las caracteristicas que podemos configurar en un receptor, ademas de unas cuantas opciones mas para limpiar la pantalla y la forma en como queremos recibir la trama, cosas que no explicaremos en este seccion porque no somos expertos en como utilizar este programa.
 
@@ -265,23 +263,23 @@ Cuando se determina que el servidor cumple con los requisitos, y no hay programa
 ## Probar conexiones SQL con archivos .udl
 
 1. En el escritorio creamos un nuevo documento de texto y le damos por nombre **test.udl**
-<div className="center-img">
-    ![test](./img/test.png "test")
-</div>
+
+![test](./img/test.png "test")
+
 2. Luego abriremos el archivo y buscaremos o escribiremos el nombre del del servidor en el que nos deseamos conectar en este caso es **"DESKTOP-5Q088IE"**, luego introducimos el nombre de usuario, la contraseña y seleccionamos la base de datos del servidor **"365DBV2"**
-<div className="center-img">
-    ![conexion](./img/conexion.png "conexion")
-</div>
+
+![conexion](./img/conexion.png "conexion")
+
 **NOTA:** Si no está utilizando ninguna instancia con nombre, utilice el siguiente formato: (nombredeservidor),(puerto).
 
 ### Ejemplos:
 
 **DESKTOP-5Q088IE,1433**
-<div className="center-img">
-    ![conexion](./img/conexion_port.png "conexion")
-</div>
+
+![conexion](./img/conexion_port.png "conexion")
+
 3. Por utlimo hacemos click en el boton probar conexion, si la conexion es exitosa nos mostrara el mensaje que dice **"La prueba de conexion fue satisfactoria"**
-<div className="center-img">
-    ![exitosa](./img/exitosa.png "exitosa")
-</div>
+
+![exitosa](./img/exitosa.png "exitosa")
+
 

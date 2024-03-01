@@ -48,6 +48,9 @@ img {
   margin: auto;
 }
 
+p {
+  text-align: justify;
+}
 /* Size of SearchBar */
 .navbar__items--right > :last-child {
   width: 200px;

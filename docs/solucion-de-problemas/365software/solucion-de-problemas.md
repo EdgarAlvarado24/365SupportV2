@@ -17,7 +17,7 @@ Entramos a la base de datos y listamos los clientes para ver los últimos regist
 ![error](./img/system-conexion.png "error")
 Lo primero que hacemos es cerrar todos los programas, reiniciar el equipo y luego volver abrir el **SG-Systems Consolse V2 Monitor** y luego **SG-Systems Console V2 Client** deberia conectar con normalidad.
 
-:::warning[Importante]
+:::warning Importante
 Si el equipo tiene un OSM instalado, se debe ejecutar primero el OSM.
 :::
 
@@ -159,7 +159,7 @@ DELETE FROM t365_TramasAlertas WHERE (Fecha < GETDATE() - 60)
 DELETE FROM t365_TramasProcesadasObservaciones WHERE (Fecha < GETDATE() - 60)
 ```
 
-:::warning[Importante]
+:::warning Importante
 Se puede cambiar cuantos meses de información quedaran, cambiando el número 60 que es equivalente a 2 meses.
 :::
 

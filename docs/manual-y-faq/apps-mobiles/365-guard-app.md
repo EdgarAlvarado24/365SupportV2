@@ -127,7 +127,7 @@ Una vez dentro de la pantalla de principal de la aplicacion 365guard y una ronda
 
 Ademas en la parte inferior del mapa se muestra los **puntos sin localizacion restantes**, junto con el nombre del punto. Esto en caso de que la ronda ejecutada sea una ronda de tipo **No Secuencial**.
 
-:::warning[Importante]
+:::warning Importante
 Si un punto no tiene localizacion esta incluido en la ronda, la pantalla de la app se mostrara el siguiente mensaje **Punto actual no se puede ubicar en el mapa. Dirigirse al punto QR para su lectura.**
 :::
 

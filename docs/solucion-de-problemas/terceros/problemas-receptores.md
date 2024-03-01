@@ -27,7 +27,7 @@ Si solo hay un receptor conectado en la maquina como es el en caso en esta image
     ![Puertos_Receptor](./img/Puertos_Receptor.png "Puertos_Receptor")
 
 
-:::warning[Importante]
+:::warning Importante
 Los **Puerto de comunicaciones** se usan específicamente para conectar modems y receptores de señales.
 :::
 

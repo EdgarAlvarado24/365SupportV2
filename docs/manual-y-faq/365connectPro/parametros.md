@@ -74,7 +74,7 @@ En el inicio 0 y en el final 9999999999, para luego simplemente darle clic en ag
 
 ![prefijos_all](./img/Parametros/prefijos_all.png "prefijos all")
 
-:::warning[Importante]
+:::warning Importante
 Para que un prefijo sea visible debemos [**Agregar un Receptor**](./parametros.md#como-agregar-un-receptor) primero y luego [**Crear un Prefijo**](parametros#como-crear-un-prefijo)
 :::
 
@@ -130,7 +130,7 @@ En la pestaña de botones podemos observar los paquetes y los botones, asi como 
 
 ![nuevo_paquete](./img/Parametros/nuevo_paquete.png "nuevo_paquete")
 
-:::warning[Importante]
+:::warning Importante
 El punto verde especifica el paquete por defecto que esta siendo utilizado en los dispositivos 365sos y el paquete por defecto no puede ser modificado mientras este siendo usado.
 :::
 
@@ -304,7 +304,7 @@ El administrador de Resoluciones permite listar, crear y modificar los mensajes 
 
 El módulo de Administración de eventos, muestra los eventos registrados en la plataforma y esta compuesto por un código, descripción, protocolo, tipo de evento, prioridad y estatus monitoreo. En tal sentido también es posible modificar, eliminar y agregar nuevos eventos.
 
-:::warning[Importante]
+:::warning Importante
 Los eventos configurados con prioridad de 1 a 3 se consideran eventos de emergencia y de 3 a 9 se consideran de no-emergencia.
 :::
 
@@ -509,7 +509,7 @@ Lo compone un calendario desde el cual es posible editar, eliminar y agregar Dí
 
 Al final deberia mostrarse la descripcion del dia feriado con un sombreado azul, en el dia que fue asignando ese feriado.
 
-:::warning[Importante]
+:::warning Importante
 los dias feriados se veran en el modulo de ordenes de servicios al momento de asignar una actividad, [calendario](./ordenes-de-servicio.md#calendario).
 
 <!--- Link de Hipervinculo dentro del documento --->

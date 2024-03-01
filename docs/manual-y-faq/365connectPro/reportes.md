@@ -156,7 +156,7 @@ Permite generar el reporte de un dispositivo con los Datos del Dispositivo, los 
 
 ![Ficha Dispositivo](./img/Reportes/reporteFichaDispositivo2.png "Ficha Dispositivo")
 
-:::warning[Importante]
+:::warning Importante
 Se pueden seleccionar todos los dispositivos dentro del reporte Ficha Dispositivo.
 :::
 
@@ -166,7 +166,7 @@ Muestra la información de los dispositivos de tipo central de alarma sin coorde
 
 ![Panel Alarmas sin Coordenadas](./img/Reportes/panelesAlarmasSinCoordenadas.png "Panel Alarmas sin Coordenadas")
 
-:::warning[Importante]
+:::warning Importante
 Se puede asignar la ubicación desde esta sección.
 :::
 
@@ -181,7 +181,7 @@ que deseemos, posteriormente hacemos clic en la opción **Guardar Ubicación**
 
 ![Mapa Panel sin Coordenadas](./img/Reportes/mapaPanelSinCoordenadas.png "Map Panel Sin Coordenadas")
 
-:::warning[Importante]
+:::warning Importante
 Puedes hacer **Zoom In** para asignar el lugar con mayor presición.
 :::
 
@@ -196,7 +196,7 @@ Muestra la información todos los Clientes que no posean imagen.
 
 ![Cliente sin Imagen](./img/Reportes/clienteSinImagen.png "Cliente sin Imagen")
 
-:::warning[Importante]
+:::warning Importante
 Se puede colocar el nombre para una busqueda mas especifica.
 :::
 
@@ -218,7 +218,7 @@ Se puede colocar el nombre para una busqueda mas especifica.
 
 ![Imagen Elegida](./img/Reportes/imagenElegida.png "Imagen Elegida")
 
-:::warning[Importante]
+:::warning Importante
 Se puede cambiar o remover la imagen asignada en caso de cambiar de opinion.
 :::
 

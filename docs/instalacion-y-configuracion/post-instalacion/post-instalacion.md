@@ -77,7 +77,7 @@ Una vez dentro de el modulo parámetros, luego entramos en el sub-modulo empresa
 
 ![prefijos](./img/post_install/Prefijos.png "prefijos")
 
-:::warning[Importante]
+:::warning Importante
 Para que el prefijo AL sea visible en el sub-modulo empresa debemos seguir los siguiente pasos o Configurar el receptor.
 :::
 
@@ -91,7 +91,7 @@ Para que el prefijo AL sea visible en el sub-modulo empresa debemos seguir los s
 
 Una vez dentro del modulo parametros, luego entramos en el sub-modulo receptores, hacemos clic en el botón agregar ubicado en la barra superior derecha de la pantalla.
 
-:::warning[Importante]
+:::warning Importante
 Esta configuración mostrada es solo una configuración de ejemplo, ya que todos los receptores no se configuran igual.
 :::
 

@@ -107,7 +107,7 @@ El administrador de visitas técnicas permite asignar y procesar una orden, adem
 
 ![mencion](./img/Ordenes_de_servicio/mencion.png "Mencion")
 
-:::warning[Importante]
+:::warning Importante
 El comentario privado solo lo podran ver los involucrados, la persona que hace el comentario y la persona que mencionan en el mismo.
 :::
 

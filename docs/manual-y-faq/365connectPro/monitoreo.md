@@ -211,7 +211,7 @@ En la primera parte nos muestran el nombre de la empresa, el prefijo del disposi
 | ![boton_enviar_correo](./img/monitoreo/boton_enviar_correo.png "boton enviar correo") | Permite enviar correo electronicos a los usuarios                  |
 | ![boton_llamar](./img/monitoreo/boton_llamar.png "boton llamar")                      | Permite llamar a los usuarios o los contactos                      |
 
-:::tip[Nota]
+:::tip Nota
 El boton de **Camara** solo estará habilitado si el evento es tipo **Zona/Punto**.
 :::
 En la segunda parte, se muestra la pestaña de cierre, el cual contiene el historial de la señal y las señales sin procesar. Si quieres mas informacion del resto de pestañas puedes ir a [**Aqui.**](./dispositivos#panel-dispositivo-central-de-alarma)

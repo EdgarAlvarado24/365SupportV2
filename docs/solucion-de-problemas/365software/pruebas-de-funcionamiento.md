@@ -74,7 +74,9 @@ Para generar un reporte de rutas mediante postman se necesita realizar la siguie
 
 ![postman rutas 1](./img/postman_rutas1.png "postman rutas 1")
 
->**Nota:** Es importante saber que las variables inicialDate y finalDate estan en formato **Unix Time Stamp**.
+:::tip Nota
+Nota Es importante saber que las variables inicialDate y finalDate estan en formato **Unix Time Stamp**.
+:::
 
 * Hacemos clic en el boton send para realizar la peticion y recibir los puntos de la ruta generada.
 
@@ -179,7 +181,9 @@ En el segmento de los logs podemos ver el registro de los paquetes que enviamos 
 
 * Luego se introduce el paquete que deseamos enviar, la IP publica del servidor o si esta conectado en la misma red la IP local y el puerto por el cual queremos conectarnos, luego presionamos el boton send.
 
->**Nota:** Para que el receptor permanezca conectado al enviar una trama con esta aplicación,es necesario marcar la casilla **persistent TCP**.
+:::tip Nota
+Nota Para que el receptor permanezca conectado al enviar una trama con esta aplicación,es necesario marcar la casilla **persistent TCP**.
+:::
 
 ![packet sender](./img/packet_sender.png "packet sender")
 

@@ -2,7 +2,7 @@
 id: 365-sos-app
 title: 365SOS 
 sidebar_label: 365SOS
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # Descripción
@@ -13,7 +13,7 @@ sidebar_position: 1
 
 ### Android
 
-1. 	Ingrese a la Playstore desde su dispositivo android e introduzca en la sección de búsqueda la combinación 365SOS.
+1. Ingrese a la Playstore desde su dispositivo android e introduzca en la sección de búsqueda la combinación 365SOS.
 
 ![search](./img/apps/sosapp/search.jpeg "search")
 
@@ -98,7 +98,7 @@ En esta pantalla deberá ingresar su usuario y contraseña para poder utilizar l
 
 ![datos_login](./img/apps/sosapp/datos_login.png "Datos login")
 
-:::warning[Importante]
+:::warning Importante
 En caso de no tener ningún dispositivo sos creado con el cliente el cual está intentado acceder se mostrara el siguiente mensaje.
 :::
 
@@ -275,7 +275,7 @@ Mientras se encuentra en camino, la aplicación mostrará el tiempo de llegada y
 
 Todos estos eventos son enviados su proveedor.
 
-:::warning[Importante]
+:::warning Importante
 Los botones que se muestran en la pantalla principal se pueden cambiar o personalizar dependiendo de lo que necesite la empresa, mas no se puede personalizar por cada cliente.
 :::
 
@@ -317,7 +317,7 @@ Permite abrir la aplicación de llamadas predeterminada y permite hacer una llam
 
 ![llamada](./img/apps/sosapp/llamada.jpeg "Llamada")
 
-:::warning[Importante]
+:::warning Importante
 Cuando el contacto no tenga un número registrado nos mostrara el mensaje de Numero Invalido.
 :::
 

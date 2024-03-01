@@ -73,7 +73,7 @@ Para acceder a las opciones de clientes para editar, eliminar o ver, diríjase h
 
 ![panel-dispositivo-list](./img/Clientes/panel-dispositivo-list.png "panel-dispositivo-list")
 
-:::warning[Importante]
+:::warning Importante
 Si intentas eliminar un cliente con dispositivos registrados se mostrara el mensaje "No se puede eliminar el cliente porque existen dispositivos asociados a el".
 :::
 
@@ -125,19 +125,19 @@ Permite visualizar y acceder a los dispositivos asociados, además, desde esta o
 
 ![Dispositivos](./img/Clientes/device.jpg "Pestaña Dispositivos")
 
-:::warning[Importante]
+:::warning Importante
 También es posible visualizar los dispositivos como un listado, para ello podemos hacer clic en el interruptor.
 :::
 
 ![Listado Dispositivos](./img/Clientes/clientelistado.jpg "Pestaña Dispositivos Lista")
 
-:::tip[Nota]
+:::tip Nota
 [Más Información: sobre dispositivos.](dispositivos)
 :::
 
 ## Usuarios
 
-:::warning[Importante]
+:::warning Importante
 Si te refieres a usuarios de la empresa que manejan la plataformna es aqui. [ Usuarios](../365connectPro/usuarios.md)
 :::
 
@@ -168,7 +168,7 @@ Los usuarios de un cliente, también son llamados subusuarios, son las personas 
 | `365Client IOS `    | Habilita/Deshabilita el acceso al cliente desde la aplicación en IOS       |
 | `365Client Android` | Habilita/Deshabilita el acceso al cliente desde la aplicación en Android   |
 
-:::warning[Importante]
+:::warning Importante
 Una vez creado el usuario, debemos asignarle todos o algunos dispositivos.
 :::
 
@@ -200,7 +200,7 @@ Se puede configurar un área geográfica, para determinar cuando un dispositivo 
 
 - En el mapa de la Pestaña Geocercas, utilice el mapa para ubicar la zona donde creará la geocerca.
 
-:::warning[Importante]
+:::warning Importante
 Haga clic y deslice el puntero para mover el mapa; O la rueda del ratón para acercar o alejar la vista.
 :::
 

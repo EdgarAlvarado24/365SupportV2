@@ -211,13 +211,13 @@ Una vez terminado la programación del GPS este debe mostrarse el icono del disp
 #### Paso 1:
 
 - Para poder usar el servidor SMTP gratuito de Gmail, debes permitirle el acceso a aplicaciones menos seguras. Google bloquea aplicaciones y dispositivos que, según ellos, no usan estándares de seguridad modernos. Sin embargo, el acceso para aplicaciones menos seguras se puede activar fácilmente [**aqui.**](https://myaccount.google.com/u/0/lesssecureapps?pli=1)
-  :::tip[Nota]
+  :::tip Nota
   _esto aplica si la cuenta de google con la que esta logeado actualmente es la que desea utilizar para enviar correos_.
   :::
 
 ![google_app_not_secure](./img/Help/google_app_not_secure.png "google_app_not_secure")
 
-:::warning[Importante]
+:::warning Importante
 si usas autenticación de 2 factores para acceder a tu cuenta de Google, no se puede habilitar el acceso a aplicaciones menos seguras. En este caso, tendrás que iniciar sesión usando la contraseña de la aplicación.
 :::
 
@@ -491,7 +491,7 @@ Para mas informacion de que es un asociados y sus funciones puede hacer clic [**
 
 ![bloqueo de aplicaciones](./img/Help/third-party/kioware_365guard_add.jpg "kioware agregar")
 
-:::warning[Importante]
+:::warning Importante
 puede activar otras aplicaciones que considere necesarias, por ejemplo la app de llamada o mensajeria.
 :::
 
@@ -509,7 +509,7 @@ puede activar otras aplicaciones que considere necesarias, por ejemplo la app de
 
 - Reinicie su smartphone para iniciar kioware.
 
-:::warning[Importante]
+:::warning Importante
 para salir del bloqueo de aplicaciónes debe marcar las 4 esquinas de la pantalla en el sentido de las agujas del reloj, comenzando por la esquina superior izquierda (deberá hacerlo en menos de 8 segundos) esto activara la interfaz para ingresar la contraseña de desbloqueo, que por defecto es **3523** , puede cambiar esta contraseña desde el panel de configuracion.
 :::
 

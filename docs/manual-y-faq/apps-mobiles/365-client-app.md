@@ -2,8 +2,7 @@
 id: 365-client-app
 title: 365Client
 sidebar_label: 365Client
----
-
+sidebar_position: 1
 ---
 
 # Descripción
@@ -171,7 +170,7 @@ En esta sección se muestra los tipos de comandos que se le pueden enviar al dis
 
 ![comandos2](../apps-mobiles/img/apps/clientapp/comandos2.jpeg "Tipos de Comandos")
 
-:::warning[Importante]
+:::warning Importante
 Si no te sale una notificación al intentar enviar comandos a un dispositivo, es porque a ese dispositivo no se le puede enviar comandos.
 :::
 

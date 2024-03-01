@@ -70,7 +70,7 @@ Este no es un error de la plataforma si no del modem en si, primero que nada hay
 
 ![Puertos_Modems](./img/Puertos_Modems.png "Puertos_Modems")
 
-:::warning[Importante]
+:::warning Importante
 Los puertos **SA-EL USB Port** son dedicados especificamente para los modems.
 :::
 
@@ -106,7 +106,7 @@ Cuando el AlertSMS este dañado o con problemas de permisos y aparezca el error 
 
 **Pase 3:** Una vez eliminado esos clientes, volver a intentar abrir el 365connect.
 
-:::warning[Importante]
+:::warning Importante
 El 365connect en la version 1 es el encargado de enviar los mensajes predeterminados. **Ejemplo:** "MC-24 C.A Informa Batería Baja Del Sistema del Cliente Enrique Villafañe a las 07:19:37 del Dia 27/06/20".
 :::
 

@@ -113,7 +113,7 @@ Lista de Tipos de Usuarios
 |Master|Operador|Administración|Técnico|Jefe Consola|Jefe de Departamento Técnico|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 
-:::tip[Nota] 
+:::tip Nota 
 Se pueden agregar mas tipos de usuarios de los que vienen creados por defecto o personalizar los ya creados, asi mismo editar los permisos de los diferentes tipos de usuarios.
 :::
 
@@ -258,7 +258,10 @@ Para acceder a las opciones de tipos de usuario para editar, eliminar, cambiar o
 * **Señales:** Permite habilitar la pestaña de Historial, en el panel de dispositivo.
 * **Ubicación:** Permite habilitar la pestaña de Ubicación en el panel dispositivo.
 * **Ubicación / Guardar:** Permite habilitar el botón guardar ubicación en la pestaña mapa, en el panel de dispositivo.
->Nota: Para quitar la pestaña Mapa completamente hay que desactivar todos los permisos pertenecientes a esa pestaña.
+
+:::tip Nota 
+Para quitar la pestaña Mapa completamente hay que desactivar todos los permisos pertenecientes a esa pestaña.
+:::
 * **Cámaras / Listar:**  Permite mostrar la lista de cámaras en la pestaña cámaras existente en el panel del dispositivo.
 * **Cámaras / Agregar:** Permite habilitar el botón de agregar usuarios.
 * **Cámaras / Editar:** Permite habilitar el botón de editar usuarios.
@@ -278,15 +281,26 @@ Para acceder a las opciones de tipos de usuario para editar, eliminar, cambiar o
 * **Eventos Monitoreo / Listar:** Permite mostrar la lista de eventos monitoreables para el cliente en la pestaña eventos monitoreo existente en el panel del dispositivo.
 * **Eventos Monitoreo / Agregar:** Permite habilitar las opciones para agregar y guardar eventos incluyentes, excluyentes, un switch de eventos y eventos cronometro.
 * **Eventos Monitoreo / Eliminar:** Permite habilitar el botón de eliminar eventos incluyentes, excluyentes, un switch de eventos y eventos cronometro.
->Nota: Para quitar la pestaña eventos monitoreo completamente hay que desactivar todos los permisos pertenecientes a esa pestaña.
+
+:::tip Nota
+Para quitar la pestaña eventos monitoreo completamente hay que desactivar todos los permisos pertenecientes a esa pestaña.
+:::
+
 * **Asignar inactividad de sistema:** Permite asignar y guardar una inactividad del sistema. 
 * **Eliminar inactividad del sistema:** Permite borrar la inactividad del sistema.
->Nota: para quitar el botón de la ventana hay que desactivar ambos permisos.
+:::tip Nota
+para quitar el botón de la ventana hay que desactivar ambos permisos.
+:::
+
 * **Eventos Inactivos / Listar:** Permite mostrar la lista de eventos inactivos para el cliente en la pestaña eventos inactivos existente en el panel del dispositivo.
 * **Eventos Inactivos / Agregar:** Permite habilitar el botón de agregar eventos inactivos.
 * **Eventos Inactivos / Editar:** Permite habilitar el botón de editar eventos inactivos.
 * **Eventos Inactivos / Eliminar:** Permite habilitar el botón de eliminar eventos inactivos.
->Nota: Para quitar la pestaña eventos inactivos completamente hay que desactivar todos los permisos pertenecientes a esa pestaña.
+
+:::tip Nota
+Para quitar la pestaña eventos inactivos completamente hay que desactivar todos los permisos pertenecientes a esa pestaña.
+:::
+
 * **Preferencias Dispositivo / Listar:** Permite mostrar las opciones que tiene la pestaña preferencias en el modulo de dispositivo.
 * **Preferencias Dispositivo / Editar:** Permite editar las opciones que tiene la pestaña preferencias en el modulo de dispositivo.
 * **Mantenimiento de vehículos / Listar:** Permite mostrar la lista de Mantenimiento de vehículos del cliente.
@@ -314,7 +328,10 @@ Para acceder a las opciones de tipos de usuario para editar, eliminar, cambiar o
 * **Notificación / Remover:** Permite remover una notificación en el panel del dispositivo.
 * **Asignar inactividad de posición:** Permite asignar y guardar una inactividad de posición. 
 * **Eliminar inactividad de posición:**Permite eliminar una inactividad de posición.
->Nota: para quitar el botón de la ventana hay que desactivar ambos permisos.
+
+:::tip Nota
+para quitar el botón de la ventana hay que desactivar ambos permisos.
+:::
 
 ### Asociados
 
@@ -346,7 +363,10 @@ Para acceder a las opciones de tipos de usuario para editar, eliminar, cambiar o
 * **Posición Cliente:** Permite ver en el modulo mapas todos los dispositivos perteneciente a un cliente en especifico.
 * **Zona Clientes:** Permite mostrar un sub-modulo mas en parámetros para generar geocercas para la empresa.
 * **Link Temporal:** Permite enviar un url para hacer seguimiento a un dispositivo en especifico a un correo electrónico.
->Nota: Para quitar la opción mapas de la barra lateral y de los módulos de la ventana hay que desactivar ambos permisos.
+
+:::tip Nota
+Para quitar la opción mapas de la barra lateral y de los módulos de la ventana hay que desactivar ambos permisos.
+:::
 
 ### Mensajería 
 

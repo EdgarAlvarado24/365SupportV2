@@ -20,8 +20,9 @@ Nos vamos a la pestaña **Inputs** y luego seleccionamos el **Name** que le quer
 ![ss3](./img/osm/365_3.jpg "ss3")
 
 En la pestaña **Outputs** seleccionamos el **Name** que tendrán al salir del OSM el cual es **365_CID**, el **Format** es **Contact ID** y el puerto utilizado es el **8000**..
-
-**Nota:** Si el servidor esta en la misma maquina se coloca la ip de la maquina 127.0.01, de lo contrario se coloca la ip del servidor, en la opcion **Address**.
+:::tip Nota
+Si el servidor esta en la misma maquina se coloca la ip de la maquina 127.0.01, de lo contrario se coloca la ip del servidor, en la opcion **Address**.
+:::
 
 ![ss4](./img/osm/365_4.jpg "ss4")
 
@@ -33,7 +34,7 @@ Luego agregamos los dos Analysers creados en **Group**, en **ALL** , para hacerl
 
 ![ss6](./img/osm/365_6.jpg "ss6")
 
-:::warning[Importante]
+:::warning Importante
  También es posible seleccionar cual de los analyser group va a ser **mandatory**, haciendo clic sobre el nombre y marcando la casilla correspondiente.
 :::
 ![ss6](./img/osm/osmmandatory.jpg "ss6")

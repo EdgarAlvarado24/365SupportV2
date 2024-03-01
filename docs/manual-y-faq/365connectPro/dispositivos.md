@@ -342,7 +342,7 @@ La inactividad del sistema, cuando está activada, genera un evento de Inactivid
 
 ![panel dispositivo](./img/Dispositivos/panel_disp/inac_sist_3.jpg "inactividad de sistema")
 
-:::warning[Importante]
+:::warning Importante
 Si configura la inactividad del sistema durante un intervalo de tiempo muy corto, por ejemplo 2 minutos, se generará el evento inactividad del sistema cada 2 minutos si no se recibe comunicación con el dispositivo.
 :::
 
@@ -360,7 +360,7 @@ Si configura la inactividad del sistema durante un intervalo de tiempo muy corto
 
 - Presione Enviar
 
-:::warning[Importante]
+:::warning Importante
 Para que el envío de comandos es necesario realizar algunas configuraciones adicionales, por ejemplo para el envío de comandos SMS se necesita tener correctamente configurado un modem SMS. Para el envio de comandos TCP debe tener el abierto puerto para el autoprocesado de señales, y el puerto de comunicaciones del OSM Server (Por defecto el 9000).
 :::
 
@@ -368,8 +368,9 @@ Para que el envío de comandos es necesario realizar algunas configuraciones adi
 
 Primero debemos crear los puntos QR de los sitios por los que deseamos que haga su ronda o recorrido, estos puntos tienen un codigo unico o ID el cual podemos utilizar y asignarselo a una central de alarma.
 
-> Nota:
-> Para crear un punto QR ver [**¿Cómo agregar un punto QR nuevo?**](./dispositivos.md#cómo-agregar-un-punto-qr-nuevo).
+:::tip Nota
+Para crear un punto QR ver [**¿Cómo agregar un punto QR nuevo?**](./dispositivos.md#cómo-agregar-un-punto-qr-nuevo).
+:::
 
 ![Referencia Punto QR](./img/Dispositivos/reference_punto_qr.png "Referencia Punto QR")
 
@@ -379,8 +380,9 @@ Una vez sepamos el codigo del punto se asigna a la central de alarma que se dese
 
 Una vez el guardia lea el punto qr con el codigo asignados a la central de alarma se generara un evento con el codigo E365_IS el cual indica que el patrullero paso por el sitio, o esta en el sitio, ademas de adjuntos e incidencias creadas al momento de leer el punt QR, esto se puede apreciar en historial tanto de la central de alarma como en el historial del guardia
 
-> Nota:
-> Para visualizar que eventos se generan en una Central de Alarma con Punto/Tag dirigirse a [**Eventos generados en el historial de un panel de alarmas**](../apps-mobiles/365-guard-app.md#eventos-generados-en-el-historial-de-un-panel-de-alarmas).
+:::tip Nota
+Para visualizar que eventos se generan en una Central de Alarma con Punto/Tag dirigirse a [**Eventos generados en el historial de un panel de alarmas**](../apps-mobiles/365-guard-app.md#eventos-generados-en-el-historial-de-un-panel-de-alarmas).
+:::
 
 ![Referencia Punto QR](./img/Dispositivos/HistorialAdjunto.png "Referencia Punto QR")
 
@@ -683,7 +685,9 @@ Desde este apartado es posible agregar y visualizar Cámaras de seguridad (IP/Do
 
 ![camaras_vlc](./img/Dispositivos/camaras_vlc.png "camaras_vlc")
 
-> Nota: Es importante recordar que para poder visualizar las camaras, es necesario tener instalado el VLC 32bits, ademas descargar y ejecutar el plugin de camaras que proporciona la pestaña de camaras al entrar en ella.
+:::tip Nota 
+Es importante recordar que para poder visualizar las camaras, es necesario tener instalado el VLC 32bits, ademas descargar y ejecutar el plugin de camaras que proporciona la pestaña de camaras al entrar en ella.
+:::
 
 ## Ordenes
 
@@ -707,7 +711,9 @@ Muestra el historial de las ordenes de servicio asociadas al dispositivo.
 Permite establecer cuando un evento es monitoreable o no, sólo para ese dispositivo; eventos excluyentes se establece que cualquier evento sea no monitoreable para ese dispositivo. Switch de eventos permite intercambiar un evento generado por otro. Eventos cronómetro son eventos que cuando se generan y no son procesados en un periodo de tiempo designado cambiará dicho evento por uno de otro tipo elegido con anticipación.
 </div>
 
-> **Nota:** Esta sección se utiliza en los casos que se requiera que algún evento funcione de forma diferente para un determinado dispositivo, se cuenta con varias opciones para modificar el comportamiento de los eventos.
+:::tip Nota
+Esta sección se utiliza en los casos que se requiera que algún evento funcione de forma diferente para un determinado dispositivo, se cuenta con varias opciones para modificar el comportamiento de los eventos.
+:::
 
 ### Eventos Incluyentes
 
@@ -823,7 +829,7 @@ En este segmento se puede crear y editar las particiones de una central de alarm
 
 En este apartado es posible ver las etiquetas asignadas a un dispositivo, además de asignar nuevas etiquetas o eliminar las existentes.
 
-:::warning[Importante]
+:::warning Importante
 Las etiquetas deben crearse en el módulo parámetros, etiquetas.
 :::
 
@@ -1018,7 +1024,9 @@ El administrador de notas permite configurar una observación que puede visualiz
 Permite establecer cuando un evento es monitoreable o no, sólo para ese dispositivos; eventos excluyentes se establece que cualquier evento sea no monitoreable para ese dispositivo. Switch de eventos permite intercambiar un evento generado por otro. Eventos cronómetro son eventos que cuando se generan y no son procesados en un periodo de tiempo designado cambiará dicho evento por uno de otro tipo elegido con anticipación.
 </div>
 
-> **Nota:** Esta sección se utiliza en los casos que se requiera que algún evento funcione de forma diferente para un determinado dispositivo, se cuenta con varias opciones para modificar el comportamiento de los eventos.
+:::tip Nota
+Esta sección se utiliza en los casos que se requiera que algún evento funcione de forma diferente para un determinado dispositivo, se cuenta con varias opciones para modificar el comportamiento de los eventos.
+:::
 
 ### Eventos Incluyentes
 
@@ -1131,7 +1139,7 @@ Se utiliza para generar un evento que le recuerde al cliente hacer el mantenimie
 
 - Luego tenemos la seccion ubicada a la izquierda se tienen las **Frecuencias**, siendo **el intervalo odometro** la casilla para ingresar cada cuanto kilometraje desea hacer el mantenimiento del vehiculo, igualmente el campo de **intervalo de dias** se refiere a cada cuantos dias se le de sea hacer el mantenimiento al automovil, en otras palabras la frecuencia se puede configurar por distancia o por tiempo calculado en dias.
 
-:::warning[Importante]
+:::warning Importante
 Al configurar el intervalo de dias en la frecuencia, no hay porque configurar el intervalo odometro, se configura uno u otro, no ambos.
 :::
 
@@ -1164,7 +1172,7 @@ En la siguiente grafica se explica como funciona el mantenimiento al momento de 
 
 En este apartado es posible ver las etiquetas asignadas a un dispositivo, además de asignar nuevas etiquetas o eliminar las existentes.
 
-:::warning[Importante]
+:::warning Importante
 Las etiquetas deben crearse en el módulo parámetros, etiquetas.
 :::
 
@@ -1305,7 +1313,7 @@ Los puntos se utilizan para establecer lugares de interés que el guardia debe v
 | `Longitud`     | Coordenada geográfica longitudinal       |
 | `Tareas`       | Identificador numérico de la partición   |
 
-:::warning[Importante]
+:::warning Importante
 Es posible asignar la latitud y longitud desde la aplicación 365Guard al momento de leer el qr y no estar geoferenciado .
 :::
 
@@ -1428,7 +1436,7 @@ Ronda Secuencial: Mostrará en la app el siguiente punto que se debe leer, segun
 | `Puntos Creados`              | Lista de puntos creados                                        |
 | `Puntos Asignados a la Ronda` | Lista de puntos asignados                                      |
 
-:::warning[Importante]
+:::warning Importante
 El menú de rondas cuenta con la opción autocrear, que facilita la creacion de rondas semejantes.
 :::
 
@@ -1577,7 +1585,9 @@ Desde este apartado es posible agregar y visualizar Cámaras de seguridad (IP/Do
 
 ![camaras_vlc](./img/Dispositivos/camaras_vlc.png "camaras_vlc")
 
-> Nota: Es importante recordar que para poder visualizar las camaras, es necesario tener instalado el VLC 32bits, ademas descargar y ejecutar el plugin de camaras que proporciona la pestaña de camaras al entrar en ella.
+:::tip Nota 
+Es importante recordar que para poder visualizar las camaras, es necesario tener instalado el VLC 32bits, ademas descargar y ejecutar el plugin de camaras que proporciona la pestaña de camaras al entrar en ella.
+:::
 
 ## Ordenes
 
@@ -1697,8 +1707,9 @@ En esta pestaña se pueden visualizar y agregar los eventos que se quiere que no
 La pestaña de preferencias sirve para configurar parámetros adicionales respecto al dispositivo, como la frecuencia de rastreo, modo debug, Distancia de rastreo y números de respaldo SMS.
 
 ![Agregar Partición](./img/Dispositivos/pref.jpg "Partición")
+
 |Campo |Descripción |
-|-----------------------------------|-------------------------------------------------------------------|
+|---|---|
 |`Rastreo` | Habilita o deshabilita el rastreo del dispositivo |
 |`Frecuencia de Rastreo`| Cada cuantos segundos se rastrea al dispositivo |
 |`Distancia de Rastreo`| Cada cuantos metros se rastrea al dispositivo cuando este se desplace|
@@ -1725,7 +1736,7 @@ La pestaña de preferencias sirve para configurar parámetros adicionales respec
 
 En este apartado es posible ver las etiquetas asignadas a un dispositivo, además de asignar nuevas etiquetas o eliminar las existentes.
 
-:::warning[Importante]
+:::warning Importante
 Las etiquetas deben crearse en el módulo parámetros, etiquetas.
 :::
 
@@ -1954,7 +1965,9 @@ Desde este apartado es posible agregar y visualizar Cámaras de seguridad (IP/Do
 
 ![camaras_vlc](./img/Dispositivos/camaras_vlc.png "camaras_vlc")
 
-> Nota: Es importante recordar que para poder visualizar las camaras, es necesario tener instalado el VLC 32bits, ademas descargar y ejecutar el plugin de camaras que proporciona la pestaña de camaras al entrar en ella.
+:::tip Nota 
+Es importante recordar que para poder visualizar las camaras, es necesario tener instalado el VLC 32bits, ademas descargar y ejecutar el plugin de camaras que proporciona la pestaña de camaras al entrar en ella.
+:::
 
 ## Ordenes
 
@@ -2076,8 +2089,9 @@ En esta pestaña se pueden visualizar y agregar los eventos que se quiere que no
 La pestaña de preferencias sirve para configurar parámetros adicionales respecto al dispositivo, como la frecuencia de rastreo, Distancia de rastreo, números de respaldo SMS, Numeros de emergencia y el paquete de botónes.
 
 ![Preferencias](./img/Dispositivos/preferenciaSOS.png "Preferencias")
+
 |Campo |Descripción |
-|-----------------------------------|-------------------------------------------------------------------|
+|---|---|
 |`Rastreo` | Habilita o deshabilita el rastreo del dispositivo |
 |`Frecuencia de Rastreo`| Cada cuantos segundos se rastrea al dispositivo |
 |`Distancia de Rastreo`| Cada cuantos metros se rastrea al dispositivo cuando este se desplace|
@@ -2096,7 +2110,7 @@ La pestañada de modo perdida sirve para configurar parametros de localizacion d
 
 En este apartado es posible ver las etiquetas asignadas a un dispositivo, además de asignar nuevas etiquetas o eliminar las existentes.
 
-:::warning[Importante]
+:::warning Importante
 Las etiquetas deben crearse en el módulo parámetros, etiquetas.
 :::
 

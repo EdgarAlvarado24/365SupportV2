@@ -23,7 +23,7 @@ sidebar_position: 3
 
 ![Servicio 1](./img/HikVision/servicioBarra.png "Servicio 1")
 
-:::tip[Nota] 
+:::tip Nota 
 Si el servicio no se puede apreciar en la barra de tareas, verificar en el Administrador de Tareas si el servicio esta instalado y en ejecución.
 :::
 
@@ -33,7 +33,7 @@ Si el servicio no se puede apreciar en la barra de tareas, verificar en el Admin
 
 ![Password](./img/HikVision/activarPass.PNG "Password")
 
-:::warning[Importante] 
+:::warning Importante 
 Es recomendable apagar el **Xampp** para evitar algun tipo de conflicto con los puertos.
 :::
 
@@ -45,7 +45,7 @@ Es recomendable apagar el **Xampp** para evitar algun tipo de conflicto con los 
 
 ![Cambio de Puerto](./img/HikVision/instalacion_hikvision_cambio_puerto.PNG "Login Portal")
 
-:::tip[Nota] 
+:::tip Nota 
 Si deseamos acceder al portal nuevamente, deberemos colocar el puerto que definimos en esta sección, ejemplo **localhost:81**.
 :::
 
@@ -53,7 +53,7 @@ Debemos verificar si estos puertos estan habilitados en el firewall.
 
 ![Puertos](./img/HikVision/hikvision_puertos_nivel_externo.png "Puertos")
 
-:::warning[Importante]
+:::warning Importante
 Si la configuración se realiza en una computadora externa hay que aperturar los puertos en el **router** de esa computadora.
 :::
 
@@ -61,7 +61,7 @@ Si la configuración se realiza en una computadora externa hay que aperturar los
 
 ![Config de Puertos](./img/HikVision/configPuertoHikVision.png "Config de Puertos")
 
-:::tip[Nota] 
+:::tip Nota 
 Si la conexión se genera en local, esta información no necesita ser rellenada.
 :::
 
@@ -83,7 +83,7 @@ Primero nos dirigimos a la lista de dispositivos. Esta lista normalmente estará
 
 ![Agregar Dispositivo3](./img/HikVision/hikvision_lista_dispositivo_offline.PNG "Agregar Dispositivo3")
 
-:::tip[Nota] 
+:::tip Nota 
 El estatus **Offline** cambiará automaticamente a **Online** una vez se haga la configuración del dispositivo en el **HUB**.
 :::
 
@@ -101,7 +101,7 @@ Debemos configurar la conexion de nuestro dispositivo para que este pueda accede
 
 ![Config de Hub3](./img/HikVision/hikvision_hub_configuracion_ISUP_datos_validos.PNG "Config de Hub3")
 
-:::tip[Nota] 
+:::tip Nota 
 El puerto por defecto es el **7661** pero este puede variar en función de la configuración inicial.
 :::
 
@@ -115,7 +115,7 @@ Para que el Hik Ip Receiver pueda conectar con 365Receiver debemos realizar las 
 
 ![Config de Salida2](./img/HikVision/hikvision_configuracion_salida_conectado.PNG "Config de Salida2")
 
-:::tip[Nota] 
+:::tip Nota 
 En este ultimo ejemplo usamos el protocolo SIA-DCS, usando el puerto 1024 con un herbeat cada cierto tiempo.
 :::
 

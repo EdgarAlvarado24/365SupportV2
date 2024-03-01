@@ -35,8 +35,9 @@ Buscamos el archivo con el nombre de la copia de seguridad de nuestra base de da
 
 ![SQL Server Management Studio 7](./img/post_install/SSM7.png "SQL Server Management Studio 7")
 
-> Nota:
-> Por defecto la busqueda inicial se localiza en la carpeta **BackUps** de **Microsoft SQL Server**, por lo que si nuestro archivo de respaldo no se encuentra allí, deberemos buscarlo en la carpeta que lo contenga.
+:::tip Nota
+Por defecto la busqueda inicial se localiza en la carpeta **BackUps** de **Microsoft SQL Server**, por lo que si nuestro archivo de respaldo no se encuentra allí, deberemos buscarlo en la carpeta que lo contenga.
+:::
 
 Una vez elegido el archivo hacemos clic en **Aceptar**
 

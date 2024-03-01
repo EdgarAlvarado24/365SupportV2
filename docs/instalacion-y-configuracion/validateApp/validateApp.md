@@ -34,9 +34,9 @@ El formulario para crear un nuevo registro de un cliente esta constituido por lo
 |Estatus|ON/OFF|
 </div>
 
-<div className="center-content">
+
 ![validateApp-agregar_clientes](./img/validateApp/form_agregar_clientes.png "validateApp-agregar_clientes")
-</div>
+
 
 Una vez completados todos estos datos hacemos clic en el boton **Guardar**.
 
@@ -65,9 +65,8 @@ Para añadir una nueva estacion (*Sitio donde se encuentra ubicado el servidor*)
 |Estatus|ON/OFF|
 </div>
 
-<div className="center-content">
+
 ![Agregar Estacion](./img/validateApp/modal_agregar_estacion.png "Agregar Estacion")
-</div>
 
 Una vez llenos todos estos datos hacemos clic en el boton **Guardar**.
 
@@ -86,11 +85,13 @@ Podemos agregar las macs de forma manual haciendo clic en el boton **Agregar** y
 |Estatus|ON/OFF|
 </div>
 
-<div className="center-content">
-![Agregar Mac](./img/validateApp/modal_agregar_mac.png "Agregar Mac")
-</div>
 
->**Nota:** La mac se puede obtener ingresando **getmac** en la consola de comandos (**CMD**) o  automaticamente iniciando el 365receiver una vez instalado, config creado e ingresado el serial en el web.  
+
+![Agregar Mac](./img/validateApp/modal_agregar_mac.png "Agregar Mac")
+
+:::tip Nota
+La mac se puede obtener ingresando **getmac** en la consola de comandos (**CMD**) o  automaticamente iniciando el 365receiver una vez instalado, config creado e ingresado el serial en el web.
+:::
 
 >Otra forma de obtener la mac es a través del router, en los dispositivos conectados a la red deberian aparecer reflejado el nombre del dispositivo, la ip privada asignada y la mac.
 
@@ -110,9 +111,10 @@ Podemos agregar la Aplicaciones de forma manual haciendo clic en el boton **Agre
 |Fecha de expiración|Seleccionamos la fecha de expiracion|
 </div>
 
-<div className="center-content">
+
+
 ![Agregar Aplicaciones](./img/validateApp/modal_agregar_aplicaciones.png "Agregar Aplicaciones")
-</div>
+
 
 ![Tabla Aplicaciones](./img/validateApp/tabla_final_aplicaciones.png "Tabla Aplicaciones")
 

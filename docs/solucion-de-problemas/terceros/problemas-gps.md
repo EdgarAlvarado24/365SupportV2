@@ -8,6 +8,8 @@ Problemas relacionados con GPS.
 
 import CodeBlock from '@theme/CodeBlock';
 
+<div className="center-table">
+
 | Problema                                                                                                        | Posible Causa                                                                                                                                                                       | Solución                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | El cliente ha registrado un dispositivo en el sistema, aparece conectado pero no muestra la posición en el mapa | [GPS Mal configurado](./problemas-gps.md#comandos-sms-para-gps103)                                                                                                                  | Enviar SMS con comandos para verificar los parametros                                                        |
@@ -19,6 +21,8 @@ import CodeBlock from '@theme/CodeBlock';
 | El dispositivo no está reportando posición, pero se encuentra en una zona con buena señal movil                 | Descartar que el problema ocurra con otros gps del cliente y de la plataforma                                                                                                       | Enviar comando check123456 y reset123456                                                                     |
 | La plataforma indica que el gps está desconectado desde hace 24 horas                                           | [Batería del GPS sin energía](./problemas-gps.md#verificar-la-transmisión-de-un-dispositivo)                                                                                        | Enviar comandos SMS para determinar si se encuentra activo y con señal movil,revisión física del dispositivo |
 | La plataforma indica que el gps está desconectado desde hace 24 horas                                           | Problemas de cobertura o datos                                                                                                                                                      | llamar al número del gps                                                                                     |
+
+</div>
 
 ## Comandos SMS para gps103
 

@@ -95,7 +95,7 @@ Esta opción nos permite ver la posición de los dispositivos que tienen señale
 
 ![buscar_dispositivos](./img/monitoreo/buscar_dispositivos.png "Buscar Dispositivos")
 
--     Cómo llegar: es una opción que nos permite trazar una ruta desde la ubicación de la central de monitoreo hasta la ubicación donde se encuentra el dispositivo.
+- Cómo llegar: es una opción que nos permite trazar una ruta desde la ubicación de la central de monitoreo hasta la ubicación donde se encuentra el dispositivo.
 
 ![como_llegar](./img/monitoreo/como_llegar.png "Como Llegar")
 
@@ -109,7 +109,7 @@ Los patrulleros son empleados de la empresa que se encargan de vigilar a los cli
 
 ![patrulleros](./img/monitoreo/patrulleros.png "Patrulleros")
 
--     Buscar patrulleros: es un buscador que nos permite filtrar la información de manera más rápida para localizar un patrullero en específico.
+- Buscar patrulleros: es un buscador que nos permite filtrar la información de manera más rápida para localizar un patrullero en específico.
 
 ![buscar_patrulleros](./img/monitoreo/buscar_patrulleros.png "Buscar Patrullero")
 
@@ -201,6 +201,8 @@ En la primera parte nos muestran el nombre de la empresa, el prefijo del disposi
 
 ![cierre_señal2](./img/monitoreo/cierre_señal2.png "cierre_señal2")
 
+<div className="center-table">
+
 | **Icono**                                                                             | **Informacion**                                                    |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | ![boton_image_zona](./img/monitoreo/boton_image_zona.png "boton image zona")          | Muestra la imagenes asociadas a una zona o punto de un dispositivo |
@@ -210,6 +212,8 @@ En la primera parte nos muestran el nombre de la empresa, el prefijo del disposi
 | ![boton_enviar_sms](./img/monitoreo/boton_enviar_sms.png "boton enviar sms")          | Permite enviar sms a los numeros de los usuarios o los contactos   |
 | ![boton_enviar_correo](./img/monitoreo/boton_enviar_correo.png "boton enviar correo") | Permite enviar correo electronicos a los usuarios                  |
 | ![boton_llamar](./img/monitoreo/boton_llamar.png "boton llamar")                      | Permite llamar a los usuarios o los contactos                      |
+
+</div>
 
 :::tip Nota
 El boton de **Camara** solo estará habilitado si el evento es tipo **Zona/Punto**.
@@ -222,6 +226,8 @@ Y en la tercera parte tenemos la seccion de mensajes predefinidos, comentarios, 
 
 ![cierre_señal3](./img/monitoreo/cierre_señal3.png "cierre señal 3")
 
+<div className="center-table">
+
 |                                  **Boton**                                   | **Informacion**                                                                               |
 | :--------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------- |
 |    ![boton_cancelar](./img/monitoreo/boton_cancelar.png "boton cancelar")    | Permite cerrar el modal de cierre señal                                                       |
@@ -230,6 +236,8 @@ Y en la tercera parte tenemos la seccion de mensajes predefinidos, comentarios, 
 |       ![boton_espera](./img/monitoreo/boton_espera.png "boton espera")       | Permite colocar en pendiente la señal durante un periodo de tiempo que el operador selecciona |
 | ![boton_transferir](./img/monitoreo/boton_transferir.png "boton transferir") | Permite transferir señales a otros operadores conectados                                      |
 |    ![boton_procesar](./img/monitoreo/boton_procesar.png "boton procesar")    | Permite procesar las señales entrantes                                                        |
+
+</div>
 
 ## Señales Pendientes
 

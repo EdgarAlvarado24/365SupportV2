@@ -7,10 +7,14 @@ sidebar_position: 5
 
 Problemas relacionados con AlertMail.
 
+<div className="center-table">
+
 | Problema                                                                    | Posible Causa                                                                                                                                   | Solución                                                      |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | SMTPAuthenticationError: 535, '5.7.8 Username and Password not accepted     | [El correo y contraseña no son correctos o se cambio la clave recientemente](./problemas-con-alertmail.md#correo-y-contraseña-no-son-correctos) | Configurar la nueva contraseña de correo en la plataforma 365 |
 | SMTPAuthenticationError: 534, '5.7.9 Application-specific password required | [La verificación de dos pasos está activa](./problemas-con-alertmail.md#autenticación-de-dos-pasos-está-activa)                                 | Crear una contraseña de aplicación                            |
+
+</div>
 
 ## Revisar Logs de Alertmail
 

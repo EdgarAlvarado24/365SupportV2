@@ -31,10 +31,14 @@ En esta pantalla debe introducir la dirección del servidor y el puerto, esta in
 
 ![conf-servidor](../apps-mobiles/img/apps/guardapp/conf-servidor.jpeg "configurar servidor")
 
+<div className="center-table">
+
 | Campo      | Descripción                                                                  |
 | ---------- | ---------------------------------------------------------------------------- |
 | `Servidor` | Computadora u ordenador que pone recursos a disposición a través de una red. |
 | `Puerto`   | Entrada y salida de la información que envías o recibes en tu red.           |
+
+</div>
 
 ## Pantalla de Autenticación
 
@@ -202,6 +206,8 @@ Cierra sesión en el dispositivo.
 
 ### Eventos que envia un usuario de 365guard:
 
+<div className="center-table">
+
 | Cod. Evento   | Descripción                  | Condición                                                                                                        |
 | ------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | callme        | Solicitud de Llamada         | Se utilizó el botón solicitud llamada                                                                            |
@@ -214,7 +220,11 @@ Cierra sesión en el dispositivo.
 | nfcread       | Lectura de nfc               | Se utilizó el boton de Lectura en Punto NFC válido                                                               |
 | qrread        | Lectura QR                   | Se utilizó el boton de lectura en un qr                                                                          |
 
+</div>
+
 ### Eventos en segundo plano
+
+<div className="center-table">
 
 | Cod. Evento | Descripción                         | Condición                                                                                                                                         |
 | ----------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -222,7 +232,11 @@ Cierra sesión en el dispositivo.
 | gps_enable  | Gps habilitado en el dispositivo    | Se genera cuando el usuario de 365guard activa el gps del telefono                                                                                |
 | qrmove      | Lectura de qr fuera de lugar        | se genera cuando utilizó el boton de lectura de qr, pero la lectura ocurrió fuera de la ubicación(la distancia maxima por defecto es de 50metros) |
 
+</div>
+
 ### Eventos generados por el sistema relacionados con las rondas
+
+<div className="center-table">
 
 | Cod. Evento        | Descripción                     | Condición                                                                                                                                |
 | ------------------ | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -235,9 +249,15 @@ Cierra sesión en el dispositivo.
 | TASK_COMPLETE      | Tareas completadas              | Se genera cuando se completaron todas las tareas de un punto qr                                                                          |
 | TASK_NOT_COMPLETED | Tareas no completadas           | Se genera si alguna tarea de un punto qr no fue completada                                                                               |
 
+</div>
+
 ### Eventos generados en el historial de un panel de alarmas:
+
+<div className="center-table">
 
 | Cod. Evento  | Descripción                      | Condición                                                                                                                  |
 | ------------ | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | E365_IS      | Patrullero en el sitio           | Se genera cuando el usuario de 365Guard escanea el qr asociado al panel de alarmas                                         |
 | incidence_is | Entrada de reporte de incidencia | Se genera cuando el usuario de 365Guard realiza un envio de incidencias relacionado con el qr asociado al panel de alarmas |
+
+</div>

@@ -19,8 +19,8 @@ Dentro de la seccion de clientes, se nos mostrara una tabla con la razon social,
 
 El formulario para crear un nuevo registro de un cliente esta constituido por los siguientes campos.
 
+<div className="center-table">
 
-<div className="center-content">
 |Campo|Descripcion|
 |---|---|
 |Razon Social|Nombre de la Empresa|
@@ -32,8 +32,8 @@ El formulario para crear un nuevo registro de un cliente esta constituido por lo
 |Impuesto|Impuesto|
 |Serial|Serial|
 |Estatus|ON/OFF|
-</div>
 
+</div>
 
 ![validateApp-agregar_clientes](./img/validateApp/form_agregar_clientes.png "validateApp-agregar_clientes")
 
@@ -56,15 +56,16 @@ Nos dirigimos al boton **Agregar**
 
 Para añadir una nueva estacion (*Sitio donde se encuentra ubicado el servidor*), el usuario y la contraseña de acceso para ingresar al mismo.
 
-<div className="center-content">
+<div className="center-table">
+
 |Campo|Descripcion|
 |---|---|
 |Nombre|Nombre del Sitio|
 |Usuario|Usuario|
 |Contraseña|Contraseña|
 |Estatus|ON/OFF|
-</div>
 
+</div>
 
 ![Agregar Estacion](./img/validateApp/modal_agregar_estacion.png "Agregar Estacion")
 
@@ -76,15 +77,16 @@ Luego nos ubicamos en la pestaña Macs
 
 Podemos agregar las macs de forma manual haciendo clic en el boton **Agregar** y llenando los datos del formulario
 
-<div className="center-content">
+<div className="center-table">
+
 |Campo|Descripcion|
 |---|---|
 |Estación|Seleccionamos la anterior estación creada|
 |Mac|Colocamos la Mac del equipo|
 |Fecha de registro|Seleccionamos la fecha de registro|
 |Estatus|ON/OFF|
-</div>
 
+</div>
 
 
 ![Agregar Mac](./img/validateApp/modal_agregar_mac.png "Agregar Mac")
@@ -101,7 +103,8 @@ Luego nos ubicamos en la pestaña Aplicaciones
 
 Podemos agregar la Aplicaciones de forma manual haciendo clic en el boton **Agregar** y llenando los datos del formulario
 
-<div className="center-content">
+<div className="center-table">
+
 |Campo|Descripción|
 |---|---|
 |Estación|Seleccionamos la anterior estación creada|
@@ -109,9 +112,8 @@ Podemos agregar la Aplicaciones de forma manual haciendo clic en el boton **Agre
 |Fecha de registro|Seleccionamos la fecha de registro|
 |Estatus|ON/OFF|
 |Fecha de expiración|Seleccionamos la fecha de expiracion|
+
 </div>
-
-
 
 ![Agregar Aplicaciones](./img/validateApp/modal_agregar_aplicaciones.png "Agregar Aplicaciones")
 

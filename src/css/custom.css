@@ -56,13 +56,7 @@ p {
   width: 200px;
 }
 
-.center-content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.center-img {
+.center-table {
   display: flex;
   justify-content: center;
 }

@@ -17,6 +17,8 @@ Luego se mostraran todas las opciones que posee la búsqueda avanzada.
 
 ![searchAvanzada](./img/Dispositivos/searchAvanzada.png "Agregar dispositivo")
 
+<div className="center-table">
+
 | Campo                                         | Descripción                                              |
 | --------------------------------------------- | -------------------------------------------------------- |
 | `CI\RIF Cliente`                              | Cedula de Identidad o Rif del cliente                    |
@@ -27,6 +29,8 @@ Luego se mostraran todas las opciones que posee la búsqueda avanzada.
 | `Ciudad`                                      | Ciudad del Dispositivo                                   |
 | `Dirección`                                   | Dirección del dispositivo                                |
 | `Búsqueda telefonica por usuario y contactos` | Búsqueda por numero de teléfono de contactos o usuarios. |
+
+</div>
 
 ## ¿Cómo crear un Dispositivo?
 
@@ -42,6 +46,8 @@ Luego se mostraran todas las opciones que posee la búsqueda avanzada.
 
 ![form_device](./img/Dispositivos/form_device.png "Agregar datos de dispositivo")
 
+<div className="center-table">
+
 | Campo             | Descripción                                                      |
 | ----------------- | ---------------------------------------------------------------- |
 | `Cliente `        | Busca el cliente al que va a pertenecer el dispositivo           |
@@ -54,6 +60,8 @@ Luego se mostraran todas las opciones que posee la búsqueda avanzada.
 | `Clave master   ` | Palabra secreta para confirmar llamadas                          |
 | `Instalador`      | Selecciona el miembro del personal que realizó la instalación    |
 | `SIM`             | Numero de SIM del dispositivo (opcional)                         |
+
+</div>
 
 ## Servicios
 
@@ -72,6 +80,8 @@ En el modulo de dispositivos tenemos la columna de servicios en esta se pueden a
 ![adddevice_type](./img/Dispositivos/adddevice_type.png "Seleccionar tipo de dispositivo")
 
 - Se desplegará un formulario que debe llenar con los datos del dispositivo.
+
+<div className="center-table">
 
 | Datos Principales        | Descripción                                                                                                                                                                                                                                        |
 | :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -111,6 +121,7 @@ En el modulo de dispositivos tenemos la columna de servicios en esta se pueden a
 | `Status Email`           | Permite enviar correos electrónicos a los usuarios del dispositivo                                                                                                                                                                                 |
 | `Estatus Monitoreo`      | Permite monitorear las señales producidas por el dispositivo                                                                                                                                                                                       |
 | `Estatus Push`           | Permite que el dispositivo envíe notificaciónes push                                                                                                                                                                                               |
+</div>
 
 ### ¿Cómo crear un Equipo GPS?
 
@@ -181,6 +192,8 @@ En el modulo de dispositivos tenemos la columna de servicios en esta se pueden a
 
 - Se desplegará un formulario que debe llenar con los datos del dispositivo.
 
+<div className="center-table">
+
 | Datos Principales    | Descripción                                                                                                                                                                                                                       |
 | :------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Cliente`            | Seleccione el cliente al que desea asignar el dispositivo creado. (Si el dispositivo se crea desde el cliente, el mismo ya esta seleccionado).                                                                                    |
@@ -220,6 +233,7 @@ En el modulo de dispositivos tenemos la columna de servicios en esta se pueden a
 | `Status Mail`        | Permite enviar correos electrónicos a los usuarios del dispositivo                                                                                                                                                                |
 | `Estatus Monitoreo`  | Permite monitorear las señales producidas por el dispositivo                                                                                                                                                                      |
 | `Estatus Push`       | Permite que el dispositivo envié notificaciónes push                                                                                                                                                                              |
+</div>
 
 ### ¿Cómo crear un 365SOS App?
 
@@ -232,6 +246,8 @@ En el modulo de dispositivos tenemos la columna de servicios en esta se pueden a
 ![adddevice_type](./img/Dispositivos/adddevice_type.png "Seleccionar tipo de dispositivo")
 
 - Se desplegará un formulario que debe llenar con los datos del dispositivo.
+
+<div className="center-table">
 
 | Datos Principales    | Descripción                                                                                                                                                                                                                       |
 | :------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -275,6 +291,8 @@ En el modulo de dispositivos tenemos la columna de servicios en esta se pueden a
 | `Status Mail`        | Permite enviar correos electrónicos a los usuarios del dispositivo                                                                                                                                                                |
 | `Estatus Monitoreo`  | Permite monitorear las señales producidas por el dispositivo                                                                                                                                                                      |
 | `Estatus Push`       | Permite que el dispositivo envié notificaciones push                                                                                                                                                                              |
+
+</div>
 
 ## Menu de Opciones de Dispositivos
 
@@ -408,6 +426,8 @@ Las zonas son áreas en un sistema de alarmas que se dividen para proteger cada 
 
 ![formularioZona](./img/Dispositivos/formularioZona.jpg "Agregar zona")
 
+<div className="center-table">
+
 | Campo         | Descripción                                        |
 | ------------- | -------------------------------------------------- |
 | `Cod. Zona `  | Código de la zona en el panel de alarmas           |
@@ -415,6 +435,8 @@ Las zonas son áreas en un sistema de alarmas que se dividen para proteger cada 
 | `Ubicación`   | Descripción de la Ubicación                        |
 | `Partición`   | Extensión o extensiones a la que pertenece la zona |
 | `Imagen`      | Archivo de imagen relacionado con la zona          |
+
+</div>
 
 ### ¿Cómo asignar cámaras a una Zona?
 
@@ -458,6 +480,8 @@ Se refiere a las personas que tienen acceso al panel de alarmas, se asigna el c�
 
 - Se desplegará un formulario para llenar los datos del usuario.
 
+<div className="center-table">
+
 | Campo           | Descripción                                                                              |
 | --------------- | ---------------------------------------------------------------------------------------- |
 | `Cod. Usuario ` | ID numérica asignada al usuario en el panel de alarmas                                   |
@@ -469,6 +493,8 @@ Se refiere a las personas que tienen acceso al panel de alarmas, se asigna el c�
 | `Clave`         | Palabra de seguridad o santo y seña, que se puede usar cuando se contacta con la persona |
 | `Tel. Móvil`    | Número de Teléfono celular                                                               |
 | `E-mail`        | Dirección de correo electrónico                                                          |
+
+</div>
 
 ## Notificaciones
 
@@ -484,6 +510,8 @@ Desde este apartado podemos configurar los avisos de eventos a través de correo
 
 - Se desplegará un formulario para llenar los datos del usuario.
 
+<div className="center-table">
+
 | Campo              | Descripción                                            |
 | ------------------ | ------------------------------------------------------ |
 | `Descripción `     | Nombre de la notificación                              |
@@ -491,6 +519,8 @@ Desde este apartado podemos configurar los avisos de eventos a través de correo
 | `Planes`           | Seleccione un plan acorde al protocolo del dispositivo |
 | `Estatus`          | Activar o Desactivar la notificación en especifico     |
 | `Eventos del plan` | Muestra los eventos que contiene el plan seleccionado  |
+
+</div>
 
 ## Contactos
 
@@ -506,6 +536,8 @@ Esta pestaña permite listar y definir números de contacto en caso de Emergenci
 
 ![addcont](./img/Dispositivos/addcont.png "addcont")
 
+<div className="center-table">
+
 | Campo        | Descripción                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------------------- |
 | `Nombre `    | Nombre de la Persona que será agregada como contacto                                                            |
@@ -515,11 +547,15 @@ Esta pestaña permite listar y definir números de contacto en caso de Emergenci
 | `Prioridad`  | Grado de importancia que tiene la persona en caso de un evento. (P.E. prioridad 1 es siempre la más importante) |
 | `Partición`  | Marcar a que particiones pertenece el contacto, puede ser todas o solo algunas                                  |
 
+</div>
+
 ## Horarios
 
 La definición de horario permite monitorear eventos adicionales relacionados con las aperturas y cierres del dispositivo.
 
 ![createHorarios](./img/Dispositivos/createHorarios.png "createHorarios")
+
+<div className="center-table">
 
 | Campo                    | Descripción                                                                          |
 | ------------------------ | ------------------------------------------------------------------------------------ |
@@ -528,6 +564,8 @@ La definición de horario permite monitorear eventos adicionales relacionados co
 | `Hora de Cierre`         | Hora ideal para realizar el cierre                                                   |
 | `Dia (s)`                | El o los días validos para el horario que esta configurando                          |
 | `Habilitar/Deshabilitar` | activa o desactiva los eventos de apertura o cierre generados por el sistema         |
+
+</div>
 
 ![HORARIOAPE](./img/Dispositivos/HORARIOAPE.jpg "HORARIOAPE")
 
@@ -661,6 +699,8 @@ Desde este apartado es posible agregar y visualizar Cámaras de seguridad (IP/Do
 
 ![detalles_camaras](./img/Dispositivos/detalles_camaras.png "detallescamaras")
 
+<div className="center-table">
+
 | Campo               | Descripción                                        |
 | ------------------- | -------------------------------------------------- |
 | `Modo de Registro ` | Protocolo por el cual se va a conectar a la cámara |
@@ -670,6 +710,8 @@ Desde este apartado es posible agregar y visualizar Cámaras de seguridad (IP/Do
 | `Puerto`            | Número de puerto                                   |
 | `Usuario`           | Nombre de acceso a la cámara                       |
 | `Contraseña`        | Clave de autentificación para acceder a la cámara  |
+
+</div>
 
 ### ¿Cómo visualizar las cámaras?
 
@@ -797,6 +839,8 @@ En esta pestaña se pueden visualizar y agregar los eventos que se quiere que no
 
 ![eventos inactivos](./img/Dispositivos/eventos_inac2.jpg "Eventos")
 
+<div className="center-table">
+
 | Campo         | Descripción                           |
 | ------------- | ------------------------------------- |
 | `Evento `     | Nombre del evento                     |
@@ -805,6 +849,8 @@ En esta pestaña se pueden visualizar y agregar los eventos que se quiere que no
 | `Expiración`  | Fecha de expiración                   |
 | `Tipo`        | Razón del evento inactivo             |
 | `Observación` | Descripción adicional                 |
+
+</div>
 
 ## Particiones
 
@@ -953,6 +999,8 @@ Esta pestaña permite listar y definir números de contacto en caso de Emergenci
 
 ![Agregar Contacto](./img/Dispositivos/addcont.png "Agregar Contacto")
 
+<div className="center-table">
+
 | Campo        | Descripción                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------------------- |
 | `Nombre `    | Nombre de la Persona que será agregada como contacto                                                            |
@@ -961,6 +1009,8 @@ Esta pestaña permite listar y definir números de contacto en caso de Emergenci
 | `Clave `     | Palabra de seguridad o santo y seña, que se puede usar cuando se contacta con la persona                        |
 | `Prioridad`  | Grado de importancia que tiene la persona en caso de un evento. (P.E. prioridad 1 es siempre la más importante) |
 | `Partición`  | Marcar a que particiones pertenece el contacto, puede ser todas o solo algunas                                  |
+
+</div>
 
 ## SMS
 
@@ -1114,6 +1164,8 @@ En esta pestaña se pueden visualizar y agregar los eventos que se quiere que no
 
 ![eventos inactivos](./img/Dispositivos/eventos_inac2.jpg "Eventos")
 
+<div className="center-table">
+
 | Campo         | Descripción                           |
 | ------------- | ------------------------------------- |
 | `Evento `     | Nombre del evento                     |
@@ -1122,6 +1174,8 @@ En esta pestaña se pueden visualizar y agregar los eventos que se quiere que no
 | `Expiración`  | Fecha de expiración                   |
 | `Tipo`        | Razón del evento inactivo             |
 | `Observación` | Descripción adicional                 |
+
+</div>
 
 ## Mantenimiento
 
@@ -1147,6 +1201,8 @@ Al configurar el intervalo de dias en la frecuencia, no hay porque configurar el
 
 - Pulse el botón `Guardar` para almacenar los datos.
 
+<div className="center-table">
+
 | Campo                         | Descripción                                              |
 | ----------------------------- | -------------------------------------------------------- |
 | `Nombre `                     | Descripción del Mantenimiento                            |
@@ -1157,6 +1213,8 @@ Al configurar el intervalo de dias en la frecuencia, no hay porque configurar el
 | **Ultimo Servicio**           | **Definicion**                                           |
 | `ultimo servicio (Distancia)` | Kilometraje en el que se realizo el ultimo mantenimiento |
 | `ultimo servicio (fecha)`     | Fecha en la que se realizo el ultimo mantenimiento       |
+
+</div>
 
 ### ¿Como configurar un mantenimiento en un Vehiculo?
 
@@ -1305,6 +1363,8 @@ Los puntos se utilizan para establecer lugares de interés que el guardia debe v
 
 - Para finalizar, presione el botón `Guardar`
 
+<div className="center-table">
+
 | Campo          | Descripción                              |
 | -------------- | ---------------------------------------- |
 | `Descripción ` | Nombre descriptivo del punto QR          |
@@ -1312,6 +1372,8 @@ Los puntos se utilizan para establecer lugares de interés que el guardia debe v
 | `Latitud`      | Coordenada geográfica latitudinal        |
 | `Longitud`     | Coordenada geográfica longitudinal       |
 | `Tareas`       | Identificador numérico de la partición   |
+
+</div>
 
 :::warning Importante
 Es posible asignar la latitud y longitud desde la aplicación 365Guard al momento de leer el qr y no estar geoferenciado .
@@ -1395,6 +1457,8 @@ Esta función asigna un punto QR de un dispositivo a otro, en los casos en que u
 
 - Para finalizar, presione el botón `Guardar`.
 
+<div className="center-table">
+
 | Campo          | Descripción                               |
 | -------------- | ----------------------------------------- |
 | `Cod. Punto `  | Codigo hexadecimal del punto NFC          |
@@ -1404,6 +1468,8 @@ Esta función asigna un punto QR de un dispositivo a otro, en los casos en que u
 | `Longitud`     | Coordenada geográfica longitudinal        |
 | `Tareas`       | Identificador numérico de la partición    |
 | `Imagen 1`     | Imagen de la ubicacion del punto NFC      |
+
+</div>
 
 ## Rondas
 
@@ -1425,6 +1491,8 @@ Ronda Secuencial: Mostrará en la app el siguiente punto que se debe leer, segun
 
 - Para completar el proceso, haga clic en el botón `Guardar`.
 
+<div className="center-table">
+
 | Campo                         | Descripción                                                    |
 | ----------------------------- | -------------------------------------------------------------- |
 | `Nombre `                     | Nombre de la Ronda                                             |
@@ -1435,6 +1503,8 @@ Ronda Secuencial: Mostrará en la app el siguiente punto que se debe leer, segun
 | `Estatus`                     | Switch para activar o desactivar la Ronda                      |
 | `Puntos Creados`              | Lista de puntos creados                                        |
 | `Puntos Asignados a la Ronda` | Lista de puntos asignados                                      |
+
+</div>
 
 :::warning Importante
 El menú de rondas cuenta con la opción autocrear, que facilita la creacion de rondas semejantes.
@@ -1478,6 +1548,8 @@ Esta pestaña permite listar y definir números de contacto en caso de Emergenci
 
 ![Agregar Contacto](./img/Dispositivos/addcont.png "Agregar Contacto")
 
+<div className="center-table">
+
 | Campo        | Descripción                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------------------- |
 | `Nombre `    | Nombre de la Persona que será agregada como contacto                                                            |
@@ -1486,6 +1558,8 @@ Esta pestaña permite listar y definir números de contacto en caso de Emergenci
 | `Clave `     | Palabra de seguridad o santo y seña, que se puede usar cuando se contacta con la persona                        |
 | `Prioridad`  | Grado de importancia que tiene la persona en caso de un evento. (P.E. prioridad 1 es siempre la más importante) |
 | `Partición`  | Marcar a que particiones pertenece el contacto, puede ser todas o solo algunas                                  |
+
+</div>
 
 ## SMS
 
@@ -1561,6 +1635,8 @@ Desde este apartado es posible agregar y visualizar Cámaras de seguridad (IP/Do
 
 ![detalles_camaras](./img/Dispositivos/detalles_camaras.png "detallescamaras")
 
+<div className="center-table">
+
 | Campo               | Descripción                                        |
 | ------------------- | -------------------------------------------------- |
 | `Modo de Registro ` | Protocolo por el cual se va a conectar a la cámara |
@@ -1570,6 +1646,8 @@ Desde este apartado es posible agregar y visualizar Cámaras de seguridad (IP/Do
 | `Puerto`            | Número de puerto                                   |
 | `Usuario`           | Nombre de acceso a la cámara                       |
 | `Contraseña`        | Clave de autentificación para acceder a la cámara  |
+
+</div>
 
 ### ¿Cómo visualizar las cámaras?
 
@@ -1693,6 +1771,8 @@ En esta pestaña se pueden visualizar y agregar los eventos que se quiere que no
 
 ![eventos inactivos](./img/Dispositivos/eventos_inac2.jpg "Eventos")
 
+<div className="center-table">
+
 | Campo         | Descripción                           |
 | ------------- | ------------------------------------- |
 | `Evento `     | Nombre del evento                     |
@@ -1702,11 +1782,15 @@ En esta pestaña se pueden visualizar y agregar los eventos que se quiere que no
 | `Tipo`        | Razón del evento inactivo             |
 | `Observación` | Descripción adicional                 |
 
+</div>
+
 ## Preferencias
 
 La pestaña de preferencias sirve para configurar parámetros adicionales respecto al dispositivo, como la frecuencia de rastreo, modo debug, Distancia de rastreo y números de respaldo SMS.
 
 ![Agregar Partición](./img/Dispositivos/pref.jpg "Partición")
+
+<div className="center-table">
 
 |Campo |Descripción |
 |---|---|
@@ -1714,6 +1798,8 @@ La pestaña de preferencias sirve para configurar parámetros adicionales respec
 |`Frecuencia de Rastreo`| Cada cuantos segundos se rastrea al dispositivo |
 |`Distancia de Rastreo`| Cada cuantos metros se rastrea al dispositivo cuando este se desplace|
 |`Resplado por SMS`| Enviar información por sms |
+
+</div>
 
 ### ¿Cómo cerrar sesión desde la web?
 
@@ -1858,6 +1944,8 @@ Esta pestaña permite listar y definir números de contacto en caso de Emergenci
 
 ![Agregar Contacto](./img/Dispositivos/addcont.png "Agregar Contacto")
 
+<div className="center-table">
+
 | Campo        | Descripción                                                                                                     |
 | ------------ | --------------------------------------------------------------------------------------------------------------- |
 | `Nombre `    | Nombre de la Persona que será agregada como contacto                                                            |
@@ -1866,6 +1954,8 @@ Esta pestaña permite listar y definir números de contacto en caso de Emergenci
 | `Clave `     | Palabra de seguridad o santo y seña, que se puede usar cuando se contacta con la persona                        |
 | `Prioridad`  | Grado de importancia que tiene la persona en caso de un evento. (P.E. prioridad 1 es siempre la más importante) |
 | `Partición`  | Marcar a que particiones pertenece el contacto, puede ser todas o solo algunas                                  |
+
+</div>
 
 ## SMS
 
@@ -1941,6 +2031,8 @@ Desde este apartado es posible agregar y visualizar Cámaras de seguridad (IP/Do
 
 ![detalles_camaras](./img/Dispositivos/detalles_camaras.png "detallescamaras")
 
+<div className="center-table">
+
 | Campo               | Descripción                                        |
 | ------------------- | -------------------------------------------------- |
 | `Modo de Registro ` | Protocolo por el cual se va a conectar a la cámara |
@@ -1950,6 +2042,8 @@ Desde este apartado es posible agregar y visualizar Cámaras de seguridad (IP/Do
 | `Puerto`            | Número de puerto                                   |
 | `Usuario`           | Nombre de acceso a la cámara                       |
 | `Contraseña`        | Clave de autentificación para acceder a la cámara  |
+
+</div>
 
 ### ¿Cómo visualizar las cámaras?
 
@@ -2075,6 +2169,8 @@ En esta pestaña se pueden visualizar y agregar los eventos que se quiere que no
 
 ![eventos inactivos](./img/Dispositivos/eventos_inac2.jpg "Eventos")
 
+<div className="center-table">
+
 | Campo         | Descripción                           |
 | ------------- | ------------------------------------- |
 | `Evento `     | Nombre del evento                     |
@@ -2084,11 +2180,15 @@ En esta pestaña se pueden visualizar y agregar los eventos que se quiere que no
 | `Tipo`        | Razón del evento inactivo             |
 | `Observación` | Descripción adicional                 |
 
+</div>
+
 ## Preferencias
 
 La pestaña de preferencias sirve para configurar parámetros adicionales respecto al dispositivo, como la frecuencia de rastreo, Distancia de rastreo, números de respaldo SMS, Numeros de emergencia y el paquete de botónes.
 
 ![Preferencias](./img/Dispositivos/preferenciaSOS.png "Preferencias")
+
+<div className="center-table">
 
 |Campo |Descripción |
 |---|---|
@@ -2099,6 +2199,8 @@ La pestaña de preferencias sirve para configurar parámetros adicionales respec
 |`Numero Respaldo SMS`|Numero para sms|
 |`Llamada de Emergencia`|Numero de llamada de emergencia|
 |`Paquetes`|Seleccione el paquete a utilizar|
+
+</div>
 
 ## Modo Perdida
 

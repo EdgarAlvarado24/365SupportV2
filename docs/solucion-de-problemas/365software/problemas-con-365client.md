@@ -6,6 +6,8 @@ sidebar_label: 365Client
 
 Problemas relacionados con la aplicacion 365Client.
 
+<div className="center-table">
+
 | Problema                                                                          | Posible Causa                                                                                                                                             | Solución                                                           |
 | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | Recibe notificaciones push duplicadas                                             | [El servidor está desactualizado](./problemas-con-365client.md#actualizar-la-versión-de-365connectpro)                                                    | Actualizar versión de 365ConnectPro                                |
@@ -17,6 +19,8 @@ Problemas relacionados con la aplicacion 365Client.
 | No aparece todo el recorrido al solicitar reporte de ruta del dispositvo          | falla en el servidor                                                                                                                                      | revisar que los servicios de 365 se esten ejecutando correctamente |
 | No aparece todo el recorrido al solicitar reporte de ruta del dispositvo          | El gps no está enviando posiciones                                                                                                                        | verificar logs de traccar                                          |
 | Las notificaciones push no tienen sonido                                          | [El smartphone xiaomi bloquea el sonido de las notificaciones](./problemas-con-365client.md#el-smartphone-xiaomi-bloquea-el-sonido-de-las-notificaciones) | habilitar el sonido de las notificaciones                          |
+
+</div>
 
 ## Actualizar la versión de 365ConnectPro
 

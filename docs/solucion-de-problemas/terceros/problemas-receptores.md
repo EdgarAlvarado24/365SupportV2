@@ -24,14 +24,14 @@ Abrir el SG System Console, ir a la sección CPM, Connection. Posteriormente rea
 Si solo hay un receptor conectado en la maquina como es el en caso en esta imagen y no se muestra en el **Administrador de dispostivos>Puertos**, posiblemente la maquina perdió el controlador.
 
 
-    ![Puertos_Receptor](./img/Puertos_Receptor.png "Puertos_Receptor")
+![Puertos_Receptor](./img/Puertos_Receptor.png "Puertos_Receptor")
 
 
 :::warning Importante
 Los **Puerto de comunicaciones** se usan específicamente para conectar modems y receptores de señales.
 :::
 
-<a href="" target="_blank">Driver del puerto serial (Falta el link)</a>
+<a href="https://drive.google.com/file/d/1U6b6RxYTvNqjW37ee4fy5r9ExvMQG3EI/view?usp=sharing" target="_blank">Driver del puerto serial</a>
 
 ## Driver Cable COM a USB (Error:this is not prolific pl2303 please contact your supplier)
 

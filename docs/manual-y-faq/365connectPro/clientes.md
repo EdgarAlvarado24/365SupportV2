@@ -19,6 +19,8 @@ Un cliente es cualquier persona **natural**, **organización** o **empresa** a l
 
 ![Agregar Cliente](./img/Clientes/modaladdclient.jpg "Agregar Cliente")
 
+<div className="center-table">
+
 | Campo                 | Descripción                                                                        |
 | --------------------- | ---------------------------------------------------------------------------------- |
 | `Empresa `            | Seleccione la empresa a la cual pertenece el cliente.                              |
@@ -48,6 +50,8 @@ Un cliente es cualquier persona **natural**, **organización** o **empresa** a l
 | `Estatus Email`       | Habilita el servicio de Notificaciones por correo                                  |
 | `Estatus Monitoreo`   | Habilita el servicio de Monitoreo                                                  |
 | `Estatus Web`         | Habilita el acceso a la pagina web                                                 |
+
+</div>
 
 ## Menú de Opciones de Cliente
 
@@ -155,6 +159,8 @@ Los usuarios de un cliente, también son llamados subusuarios, son las personas 
 
 ![Agregar Usuarios](./img/Clientes/modaladduser.jpg "Modal agregar Usuarios")
 
+<div className="center-table">
+
 | Campo               | Descripción                                                                |
 | ------------------- | -------------------------------------------------------------------------- |
 | `Nombre`            | Nombre del sub-usuario                                                     |
@@ -167,6 +173,8 @@ Los usuarios de un cliente, también son llamados subusuarios, son las personas 
 | `Comandos   `       | Habilita/Deshabilita el envío de comandos                                  |
 | `365Client IOS `    | Habilita/Deshabilita el acceso al cliente desde la aplicación en IOS       |
 | `365Client Android` | Habilita/Deshabilita el acceso al cliente desde la aplicación en Android   |
+
+</div>
 
 :::warning Importante
 Una vez creado el usuario, debemos asignarle todos o algunos dispositivos.
@@ -212,6 +220,8 @@ Haga clic y deslice el puntero para mover el mapa; O la rueda del ratón para ac
 
 ![Geocercas](./img/Clientes/geoadddetalle.jpg "Pestaña Geocercas")
 
+<div className="center-table">
+
 | Campo                    | Descripción                                                                          |
 | ------------------------ | ------------------------------------------------------------------------------------ |
 | `Nombre`                 | Nombre de la geocerca                                                                |
@@ -219,6 +229,9 @@ Haga clic y deslice el puntero para mover el mapa; O la rueda del ratón para ac
 | `Dispositivos Asignados` | Marque la casilla de los dispositivos asociados a la geocerca                        |
 | `Adentro`                | Marque la casilla para generar un evento cuando el dispositivo ingrese a la geocerca |
 | `Afuera`                 | Marque la casilla para generar un evento cuando el dispositivo Salga de la geocerca  |
+
+
+</div>
 
 - Ahora vamos a dibujar la geocerca, para tal función existen tres botones en el mapa.
 
@@ -250,12 +263,16 @@ En la pestaña de notificaciones se pueden ver un listado con todos los tipos de
 
 ![Notificaciones](./img/Clientes/notif.jpg "Pestaña Notificaciones")
 
+<div className="center-table">
+
 | Tipos de notificaciones | Descripción                                                                                            |
 | :---------------------- | :----------------------------------------------------------------------------------------------------- |
 | `SMS por señal`         | Envía un mensaje de texto cada vez que un dispositivo genera una señal.                                |
 | `Email por señal`       | Envía un correo electrónico cada vez que una señal es generada.                                        |
 | `Email Reporte`         | Genera un reporte de las señales generadas, y lo enviá de forma periódica (diario, semanal o mensual). |
 | `Notificaciones Push`   | Envía una notificación push directamente a la aplicación 365Client.                                    |
+
+</div>
 
 ![Agregar Notificación](./img/Clientes/noti.jpg "Notificaciones")
 
@@ -290,6 +307,8 @@ En la parte superior de la ventana se presentan una lista de iconos.
 
 ### Descripcion de barra de tareas
 
+<div className="center-table">
+
 | Icono                                                  | Detalle                                                |
 | :----------------------------------------------------- | :----------------------------------------------------- |
 | ![Cabecera1](./img/Clientes/cabecera1.png "Cabecera1") | **Ir al panel del cliente**                            |
@@ -299,6 +318,8 @@ En la parte superior de la ventana se presentan una lista de iconos.
 | ![Cabecera5](./img/Clientes/cabecera5.png "Cabecera5") | **Enlace temporal para visualización de dispositivos** |
 | ![Cabecera6](./img/Clientes/cabecera6.png "Cabecera6") | **Mi posición**                                        |
 | ![Cabecera7](./img/Clientes/cabecera7.png "Cabecera7") | **Limpiar Mapa**                                       |
+
+</div>
 
 ## Panel del Dispositivo
 
@@ -318,6 +339,8 @@ El modulo de soporte a clientes permite enviar un mensaje a la empresa, puede se
 
 ![formulario soporte](../faq/img/Help/formularioSoporte.png "soporte a clientes")
 
+<div className="center-table">
+
 | Campo                 | Descripción                                                           |
 | --------------------- | --------------------------------------------------------------------- |
 | `Categoria`           | Motivo o tema del mensaje                                             |
@@ -325,3 +348,5 @@ El modulo de soporte a clientes permite enviar un mensaje a la empresa, puede se
 | `Descripción`         | Apartado para detallar su requerimiento, consulta, queja o sugerencia |
 | `Correo Electronico ` | Dirección de correo para que el personal se comunique                 |
 | `Prioridad`           | Nivel de urgencia del requerimiento                                   |
+
+</div>

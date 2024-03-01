@@ -7,6 +7,8 @@ sidebar_position: 3
 
 Problemas relacionados con el Web.
 
+<div className="center-table">
+
 | Problema 	| Posible Causa 	| Solución 	|
 |----------	|---------------	|----------	|
 |Error 601|[el archivo config.php esta dañado o no existe](problemas-365web#archivo-configphp-no-existe) |Crear o Restaurar el config.php|
@@ -23,6 +25,8 @@ Problemas relacionados con el Web.
 |al entrar a monitoreo o a cualquier ventana la computadora se relentiza|[Se está monitoreando en el servidor y es un equipo de recursos limitados](../../manual-y-faq/365connectPro/inicio.md#requerimientos-para-equipos-con-fines-de-monitoreo-y-uso-de-la-plataforma-web)|Monitorear desde un computador que no sea el servidor|
 |la plataforma carga lento, en local y ip externa pero se normaliza temporalmente al reiniciar apache|[Problema de conexión de Puertos](problemas-365web#cambiar-puerto-de-acceso-a-365)|cambiar los puertos|
 |la plataforma web deja de responder indefinidamente a menos que se reinicie apache|[el proveedor de internet tiene un conflicto con los puertos principales de 365](problemas-365web#problemas-de-conexión-por-bloqueo-de-puertos)|Configurar un job para ejecutar el reinicio de apache por consola de windows|
+
+</div>
 
 ## Solucionar problemas con el config.php
 El primer paso es Ingresar al directorio `C:\xampp\htdocs\365\include\scriptdb` y abrir el archivo `config.php`.

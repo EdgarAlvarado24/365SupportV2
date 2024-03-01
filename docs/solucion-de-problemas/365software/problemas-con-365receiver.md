@@ -6,6 +6,8 @@ sidebar_label: 365Receiver
 
 Problemas relacionados con el 365Receiver.
 
+<div className="center-table">
+
 | Problema                                                    | Posible Causa                                                                                                                | Solución                                                   |
 | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | No llegan Señales a Monitoreo                               | [365Receiver no está ejecutandose](problemas-365receiver#365receiver-no-está-en-ejecución)                                   | Ejecutar 365Receiver                                       |
@@ -13,6 +15,8 @@ Problemas relacionados con el 365Receiver.
 | Mensaje "Violación de la licencia, contacte a 365monitoreo" | [el serial del software es incorrecto](./problemas-con-365web.md#el-serial-en-base-de-datos-no-es-correcto)                  | Cambiar el serial en base de datos                         |
 | Receptor aparece con simbolo rojo en 365Receiver            | [365Receiver está abierto varias veces](./problemas-con-365receiver.md#hay-más-de-una-instancia-de-365receiver-en-ejecución) | Cerrar todas las instancias del programa y abrir una nueva |
 | Receptor aparece con simbolo rojo en 365Receiver            | [Receptor está desconectado](../terceros/problemas-receptores.md#receptor-desconectado)                                      | Solucionar problemas de conexión con el receptor           |
+
+</div>
 
 ## 365Receiver no está en ejecución
 

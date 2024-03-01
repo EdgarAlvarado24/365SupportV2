@@ -162,6 +162,7 @@ Para probar que los puertos estan abiertos, se puede utilizar varias herramienta
 
 ![packet sender form](./img/packet_sender_form.png "packet sender form")
 
+<div className="center-table">
 
 |**Campo**|**Descripcion**|
 |---|---|
@@ -170,6 +171,8 @@ Para probar que los puertos estan abiertos, se puede utilizar varias herramienta
 |Adresss| Direccion del servidor o DNS |
 |Port| Puerto de acceso de la señal |
 |Resend Delay| Tiempo de re-envio |
+
+</div>
 
 * En la seccion de paquetes guardados podemos ver toda la informacion enviada anteriormente, en el formulario.
 

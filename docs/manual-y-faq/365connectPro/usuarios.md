@@ -30,6 +30,8 @@ Para acceder a las opciones de usuario para editar, eliminar, cambiar o restable
 
 * Se desplegará un formulario que debe llenar con los datos del usuario.
 
+<div className="center-table">
+
 |Campo           |Descripción                                                        |
 |----------------|-------------------------------------------------------------------|
 |`Empresa`        |Nombre de la Empresa a la cual pertenece            |
@@ -48,6 +50,8 @@ Para acceder a las opciones de usuario para editar, eliminar, cambiar o restable
 |`Notificaciónes Servicio técnico: `         |Mostrar las notificaciónes de servicio técnico mediante SMS o correo electrónico|
 |`Acceso Remoto`         |Poder acceder fuera de la red lan a la plataforma|
 |`Imagen`         |Representación fotográfica del cliente|
+
+</div>
 
 ### ¿Cómo editar un usuario?
 * Localice el usuario que desea editar, ubique el Menu de opciones
@@ -105,13 +109,24 @@ El sub-modulo de Tipos de usuario permite visualizar una lista con los tipos de 
 ![Tipo de Usuario](./img/Usuarios/tiposDeUsuariosList.png "Tipo de Usuario")
 
 Los tipos de usuarios creados por defecto en la plataforma son:
-
 <div className="center-text">
-Lista de Tipos de Usuarios
-</div>
 
-|Master|Operador|Administración|Técnico|Jefe Consola|Jefe de Departamento Técnico|
-|:---:|:---:|:---:|:---:|:---:|:---:|
+#### Lista de Tipos de Usuarios
+
+</div>
+<div className="center-table">
+
+|Cantidad|Tipo|
+|:--:|:--:|
+|1|Master|
+|2|Operador|
+|3|Administracion|
+|4|Tecnico|
+|5|Jefe Consola|
+|6|Jefe de Departamento Tecnico|
+
+
+</div>
 
 :::tip Nota 
 Se pueden agregar mas tipos de usuarios de los que vienen creados por defecto o personalizar los ya creados, asi mismo editar los permisos de los diferentes tipos de usuarios.
@@ -132,12 +147,16 @@ Para acceder a las opciones de tipos de usuario para editar, eliminar, cambiar o
 
 ![Tipo de Usuario](./img/Usuarios/addTypeUsuario2.png "Tipo de Usuario")
 
+<div className="center-table">
+
 |Campo           |Descripción                                                        |
 |----------------|-------------------------------------------------------------------|
 |`Empresa`|Seleccione la Empresa a la que se le desea agregar el tipo de usuario|
 |`Perfil de Usuario`      | Seleccioné un Perfil de Usuario   |
 |`Descripción`   |Elija el Nombre del Tipo de Usuario     |
 |`Color `   |Seleccione el Color del Tipo de Usuario |
+
+</div>
 
 ### ¿Cómo editar tipos de usuario?
 * Localice el tipo de usuario que desea editar, ubique el Menu de acciones
@@ -173,8 +192,15 @@ Para acceder a las opciones de tipos de usuario para editar, eliminar, cambiar o
 ![Permisos Tipo de Usuario3](./img/Usuarios/permisosTypeUsuario3.png "Permisos Tipo de Usuario3")
 
 ## Lista de Permisos
+<details>
+
+<summary>
 
 ### Monitoreo  
+
+</summary>
+
+<div>
 
 * **Señales por Procesar:** Habilita la visualización de la pestaña ubicada en el modulo monitoreo, donde se mostraran las señales entrantes de los dispositivos.
 * **Señales Pendientes:** Habilita la visualización de la pestaña ubicada en el modulo monitoreo, donde se mostraran las señales procesadas como pendientes o en espera.
@@ -190,11 +216,29 @@ Para acceder a las opciones de tipos de usuario para editar, eliminar, cambiar o
 * **Editar Observaciones en Historial de la Señal:** Permite el editar las observaciones creadas automáticamente por el software en el historial de la señal.
 * **Simular Señal:** Habilita la opción para simular una señal en el monitoreo.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Dashboard 
+
+</summary>
+<div>
 
 * **Listar dashboard:** Permite observar los modulos en la ventana principal luego de acceder a la plataforma.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Clientes 
+
+</summary>
+<div>
 
 * **Listar Clientes:** Permite observar la lista de clientes.
 * **Crear Clientes:** Permite agregar clientes.
@@ -203,7 +247,16 @@ Para acceder a las opciones de tipos de usuario para editar, eliminar, cambiar o
 * **Crear Login Clientes:** Permite editar el login y la clave del cliente.
 * **Cambiar Estatus:** Habilita la opción de cambiar el estatus web del cliente.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Panel de Cliente
+
+</summary>
+<div>
 
 * **Usuarios / Listar:** Permite listar usuarios en el panel clientes.
 * **Usuarios / Agregar:** Permite agregar usuarios en el panel clientes.
@@ -227,7 +280,16 @@ Para acceder a las opciones de tipos de usuario para editar, eliminar, cambiar o
 * **Notificaciónes / Editar:** Permite editar las notificaciónes en el panel clientes.
 * **Notificaciónes / Eliminar:** Permite eliminar las notificaciónes en el panel clientes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Dispositivos
+
+</summary>
+<div>
 
 * **Listado de Dispositivos:** Permite observar la lista de dispositivo, en el panel cliente y en el modulo dispositivos.
 * **Crear Dispositivo:** Permite agregar dispositivo.
@@ -236,7 +298,16 @@ Para acceder a las opciones de tipos de usuario para editar, eliminar, cambiar o
 * **Eliminar Dispositivo:** Permite habilitar la opción eliminar en el panel de dispositivo, en las pestañas dle panel cliente. 
 * **Enviar Comando:** Permite enviar comandos en el panel de dispositivos.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Panel Dispositivo
+
+</summary>
+<div>
 
 * **Editar Dispositivo:** Permite habilitar el botón de editar en el modulo de dispositivos en la pestaña de dispositivo.
 * **Zonas / Listar:**  Permite mostrar la lista de Zonas en la pestaña zonas existente en el panel del dispositivo. 
@@ -258,7 +329,6 @@ Para acceder a las opciones de tipos de usuario para editar, eliminar, cambiar o
 * **Señales:** Permite habilitar la pestaña de Historial, en el panel de dispositivo.
 * **Ubicación:** Permite habilitar la pestaña de Ubicación en el panel dispositivo.
 * **Ubicación / Guardar:** Permite habilitar el botón guardar ubicación en la pestaña mapa, en el panel de dispositivo.
-
 :::tip Nota 
 Para quitar la pestaña Mapa completamente hay que desactivar todos los permisos pertenecientes a esa pestaña.
 :::
@@ -281,26 +351,21 @@ Para quitar la pestaña Mapa completamente hay que desactivar todos los permisos
 * **Eventos Monitoreo / Listar:** Permite mostrar la lista de eventos monitoreables para el cliente en la pestaña eventos monitoreo existente en el panel del dispositivo.
 * **Eventos Monitoreo / Agregar:** Permite habilitar las opciones para agregar y guardar eventos incluyentes, excluyentes, un switch de eventos y eventos cronometro.
 * **Eventos Monitoreo / Eliminar:** Permite habilitar el botón de eliminar eventos incluyentes, excluyentes, un switch de eventos y eventos cronometro.
-
 :::tip Nota
 Para quitar la pestaña eventos monitoreo completamente hay que desactivar todos los permisos pertenecientes a esa pestaña.
 :::
-
 * **Asignar inactividad de sistema:** Permite asignar y guardar una inactividad del sistema. 
 * **Eliminar inactividad del sistema:** Permite borrar la inactividad del sistema.
 :::tip Nota
 para quitar el botón de la ventana hay que desactivar ambos permisos.
 :::
-
 * **Eventos Inactivos / Listar:** Permite mostrar la lista de eventos inactivos para el cliente en la pestaña eventos inactivos existente en el panel del dispositivo.
 * **Eventos Inactivos / Agregar:** Permite habilitar el botón de agregar eventos inactivos.
 * **Eventos Inactivos / Editar:** Permite habilitar el botón de editar eventos inactivos.
 * **Eventos Inactivos / Eliminar:** Permite habilitar el botón de eliminar eventos inactivos.
-
 :::tip Nota
 Para quitar la pestaña eventos inactivos completamente hay que desactivar todos los permisos pertenecientes a esa pestaña.
 :::
-
 * **Preferencias Dispositivo / Listar:** Permite mostrar las opciones que tiene la pestaña preferencias en el modulo de dispositivo.
 * **Preferencias Dispositivo / Editar:** Permite editar las opciones que tiene la pestaña preferencias en el modulo de dispositivo.
 * **Mantenimiento de vehículos / Listar:** Permite mostrar la lista de Mantenimiento de vehículos del cliente.
@@ -328,12 +393,20 @@ Para quitar la pestaña eventos inactivos completamente hay que desactivar todos
 * **Notificación / Remover:** Permite remover una notificación en el panel del dispositivo.
 * **Asignar inactividad de posición:** Permite asignar y guardar una inactividad de posición. 
 * **Eliminar inactividad de posición:**Permite eliminar una inactividad de posición.
-
 :::tip Nota
 para quitar el botón de la ventana hay que desactivar ambos permisos.
 :::
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Asociados
+
+</summary>
+<div>
 
 * **Listar Asociados:** Permite mostrar la lista de asociados existentes en el modulo asociados.
 * **Crear Asociados:** Permite agregar asociados.
@@ -341,7 +414,16 @@ para quitar el botón de la ventana hay que desactivar ambos permisos.
 * **Editar Asociados:** Permite editar los asociados existentes.
 * **Eliminar Asociados:** Permite eliminar los asociados existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Usuarios
+
+</summary>
+<div>
 
 * **Listado de Usuarios:** Permite mostrar la lista de usuarios existentes en el sub-modulo usuarios.
 * **Crear Usuarios:** Permite agregar asociados.
@@ -350,7 +432,16 @@ para quitar el botón de la ventana hay que desactivar ambos permisos.
 * **Eliminar Usuarios:** Permite eliminar los usuarios existentes. 
 * **Permisos Usuarios:** Muestra una lista de permisos para asignar o quitar permisos a un usuario en especifico.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Tipos de Usuarios
+
+</summary>
+<div>
 
 * **Listar Tipos de Usuarios:** Permite mostrar la lista de tipos de usuarios existentes en el sub-modulo tipos de usuarios.
 * **Nuevo Tipos de Usuarios:**  Permite agregar tipos de usuarios.
@@ -358,29 +449,64 @@ para quitar el botón de la ventana hay que desactivar ambos permisos.
 * **Eliminar Tipos de Usuarios:** Permite eliminar los asociados existentes. 
 * **Permisos Tipos de Usuarios:** Muestra una lista de permisos para asignar o quitar permisos a un tipo de  usuario en especifico.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Mapas
+
+</summary>
+<div>
 
 * **Posición Cliente:** Permite ver en el modulo mapas todos los dispositivos perteneciente a un cliente en especifico.
 * **Zona Clientes:** Permite mostrar un sub-modulo mas en parámetros para generar geocercas para la empresa.
 * **Link Temporal:** Permite enviar un url para hacer seguimiento a un dispositivo en especifico a un correo electrónico.
-
 :::tip Nota
 Para quitar la opción mapas de la barra lateral y de los módulos de la ventana hay que desactivar ambos permisos.
 :::
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Mensajería 
 
-* **Enviar Mensaje a Todos Los Clientes:**
-* **Enviar Mensaje Manual:**
+</summary>
+<div>
+
+* **Enviar Mensaje a Todos Los Clientes:** Permite enviar Mensaje a todos los clientes.
+* **Enviar Mensaje Manual:** Permite  Enviar un mensaje manual.
+
+</div>
+</details>
+
+<details>
+<summary>
 
 ### Equipos Empresa
+
+</summary>
+<div>
 
 * **Listar Equipos:** Permite mostrar la lista de equipos prestados en el sub-modulo comodato y el dinero prestado entre usuarios en el sub-modulo préstamo.
 * **Crear Equipos:** Permite crear equipos y prestar dinero.
 * **Editar Equipos:** Permite editar los equipos prestados y editar los prestamos de dinero.
 * **Eliminar Equipos:** Permite eliminar los equipos prestados y eliminar los prestamos de dinero.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Ordenes de Servicio
+
+</summary>
+<div>
 
 * **Listar Ordenes:** Permite ver en otra ventana un resumen, la lista de ordenes y un calendario con las ordenes creadas.
 * **Nueva Orden:** Permite crear una nueva orden de servicio. 
@@ -389,13 +515,31 @@ Para quitar la opción mapas de la barra lateral y de los módulos de la ventana
 * **Cambiar Estatus:** Permite cambiar el estatus de una orden de servicio.
 * **TimeLine:** Permite ver el timeline o las conversaciones entre los diferentes tipos de usuarios.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Administrativo de Ordenes de Servicio
+
+</summary>
+<div>
 
 * **Listar Ordenes:** Permite mostrar la lista de las ordenes de servicios.
 * **Cambiar Estatus:** Permite habilitar el botón para modificar el estado de las ordenes de servicios.
 * **TimeLine:** Permite habilitar el botón de timeline de administrativo de ordenes de servicio.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Reportes 
+
+</summary>
+<div>
 
 * **Activaciones:** Permite mostrar el botón para entrar al modulo mencionado.
 * **Grupo Señal:** Permite mostrar el botón para entrar al modulo mencionado.
@@ -429,7 +573,16 @@ Para quitar la opción mapas de la barra lateral y de los módulos de la ventana
 * **Reporte Historial de Dispositivos:** Permite mostrar el botón para entrar al modulo mencionado.
 * **Reporte Próximos Vencimientos:** Permite mostrar el botón para entrar al modulo mencionado.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Configurar Empresas 
+
+</summary>
+<div>
 
 * **Listar Empresas:** Permite observar la lista de las empresas.
 * **Crear Empresas:** Permite observar el botón para agregar nuevas empresas.
@@ -437,166 +590,376 @@ Para quitar la opción mapas de la barra lateral y de los módulos de la ventana
 * **Cambiar Estatus:** Habilita la opción de cambiar el estatus de las empresas.
 * **Eliminar Empresas:** Permite eliminar las empresas existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Marcas Vehículos
+
+</summary>
+<div>
 
 * **Listar Marcas:** Permite observar la lista de las marcas.
 * **Crear Marcas:** Permite observar el botón para agregar nuevas marcas.
 * **Editar Marcas:** Permite observar el botón para editar marcas.
 * **Eliminar Marcas:** Permite eliminar las marcas existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Modelos Vehículos
+
+</summary>
+<div>
 
 * **Listar Modelos:** Permite observar la lista de las Modelos.
 * **Crear Modelos:** Permite observar el botón para agregar nuevas Modelos.
 * **Editar Modelos:** Permite observar el botón para editar Modelos.
 * **Eliminar Modelos:** Permite eliminar las Modelos existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Usuario Parentesco
+
+</summary>
+<div>
 
 * **Listar Parentesco:** Permite observar la lista de los Parentesco.
 * **Crear Parentesco:** Permite observar el botón para agregar nuevos Parentesco.
 * **Editar Parentesco:** Permite observar el botón para editar los Parentesco.
 * **Eliminar Parentesco:** Permite eliminar los Parentesco.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Modems
+
+</summary>
+<div>
 
 * **Listar Modems:** Permite observar la lista de los Modems.
 * **Crear Modems:** Permite observar el botón para agregar nuevos Modems.
 * **Editar Modems:** Permite observar el botón para editar los Modems
 * **Eliminar Modems:** Permite eliminar los Modems existente.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Tipo Dispositivo
+
+</summary>
+<div>
 
 * **Listar Tipo Dispositivo:** Permite observar la lista de los Tipo Dispositivo.
 * **Crear Tipo Dispositivo:** Permite observar el botón para agregar nuevos Tipo Dispositivo.
 * **Editar Tipo Dispositivo:** Permite observar el botón para editar los Tipo Dispositivo.
 * **Eliminar Tipo Dispositivo:** Permite eliminar los Tipo Dispositivo existente.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Tipo Clientes
+
+</summary>
+<div>
 
 * **Listar Tipo Clientes:** Permite observar la lista de los Tipo Clientes.
 * **Crear Tipo Clientes:**Permite observar el botón para agregar nuevos Tipo Clientes.
 * **Editar Tipo Clientes:** Permite observar el botón para editar los Tipo Clientes.
 * **Eliminar Tipo Clientes:** Permite eliminar los Tipo Clientes existente.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Resoluciones
+
+</summary>
+<div>
 
 * **Listar Resoluciones:** Permite observar la lista de las Resoluciones.
 * **Crear Resoluciones:** Permite observar el botón para agregar nuevas Resoluciones.
 * **Editar Resoluciones:** Permite observar el botón para editar las Resoluciones.
 * **Eliminar Resoluciones:** Permite eliminar las Resoluciones existente.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Configurar Eventos
+
+</summary>
+<div>
 
 * **Listar Eventos:** Permite observar la lista de los Eventos.
 * **Crear Eventos:** Permite observar el botón para agregar nuevos Eventos.
 * **Editar Eventos:** Permite observar el botón para editar los Eventos.
 * **Eliminar Eventos:** Permite eliminar los Eventos existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Planes
+
+</summary>
+<div>
 
 * **Listar Planes:** Permite observar la lista de los Planes.
 * **Crear Planes:** Permite observar el botón para agregar nuevos Planes.
 * **Editar Planes:** Permite observar el botón para editar los Planes.
 * **Eliminar Planes:** Permite eliminar los Planes existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Configurar Grupo Código de Alarma
+
+</summary>
+<div>
 
 * **Listar Grupo de Código:** Permite observar la lista de los Grupo de Código.
 * **Crear Grupo:** Permite observar el botón para agregar nuevos Grupos.
 * **Editar Grupo:** Permite observar el botón para editar los Grupos.
 * **Eliminar Grupo:** Permite eliminar los Grupo existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Departamentos
+
+</summary>
+<div>
 
 * **Listar Departamentos:** Permite observar la lista de los Departamentos.
 * **Crear Departamentos:** Permite observar el botón para agregar nuevos Departamentos.
 * **Editar Departamentos:** Permite observar el botón para editar los Departamentos.
 * **Eliminar Departamentos:** Permite eliminar los Departamentos existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Motivos Soporte Clientes
+
+</summary>
+<div>
 
 * **Listar Motivos:** Permite observar la lista de los Motivos.
 * **Crear Motivo:** Permite observar el botón para agregar nuevos Motivos.
 * **Editar Motivo:** Permite observar el botón para editar los Motivos.
 * **Eliminar Motivo:** Permite eliminar los Motivos existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Receptores
+
+</summary>
+<div>
 
 * **Listar Receptores:** Permite observar la lista de los Receptores.
 * **Crear Receptores:** Permite observar el botón para agregar nuevos Receptores.
 * **Editar Receptores:** Permite observar el botón para editar los Receptores.
 * **Eliminar Receptores:** Permite eliminar los Receptores existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Días Feriados
+
+</summary>
+<div>
 
 * **Listar Días Feriados:** Permite observar la lista de los Días Feriados.
 * **Crear Dia Feriado:** Permite observar el botón para agregar nuevos Días Feriados.
 * **Editar Dia Feriado:** Permite observar el botón para editar los Días Feriados.
 * **Eliminar Dia Feriado:** Permite eliminar los Días Feriados existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Dispositivo Tipo
+
+</summary>
+<div>
 
 * **Listar Dispositivo Tipo:** Permite observar la lista de los Dispositivo Tipo.
 * **Crear Dispositivo Tipo:** Permite observar el botón para agregar nuevos Dispositivo Tipo.
 * **Editar Dispositivo Tipo:** Permite observar el botón para editar los Dispositivo Tipo.
 * **Eliminar Dispositivo Tipo:** Permite eliminar los Dispositivo Tipo existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Dispositivo SubTipo
+
+</summary>
+<div>
 
 * **Listar Dispositivo SubTipo:** Permite observar la lista de los Dispositivo SubTipo.
 * **Crear Dispositivo SubTipo:** Permite observar el botón para agregar nuevos Dispositivo SubTipo.
 * **Editar Dispositivo SubTipo:** Permite observar el botón para editar los Dispositivo SubTipo.
 * **Eliminar Dispositivo SubTipo:** Permite eliminar los Dispositivo SubTipo existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Dispositivo Marcas
+
+</summary>
+<div>
 
 * **Listar Dispositivo Marcas:** Permite observar la lista de los Dispositivo Marcas.
 * **Crear Dispositivo Marca:** Permite observar el botón para agregar nuevos Dispositivo Marcas.
 * **Editar Dispositivo Marca:** Permite observar el botón para editar los Dispositivo Marcas.
 * **Eliminar Dispositivo Marca:** Permite eliminar los Dispositivo Marcas existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Dispositivo Modelos
+
+</summary>
+<div>
 
 * **Listar Dispositivo Modelo:** Permite observar la lista de los Dispositivo Modelo.
 * **Crear Dispositivo Modelo:** Permite observar el botón para agregar nuevos Dispositivo Modelo.
 * **Editar Dispositivo Modelo:** Permite observar el botón para editar los Dispositivo Modelo.
 * **Eliminar Dispositivo Modelo:** Permite eliminar los Dispositivo Modelo existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Dispositivo Manual
+
+</summary>
+<div>
 
 * **Listar Dispositivo Manual:** Permite observar la lista de los Dispositivo Manual.
 * **Crear Dispositivo Manual:** Permite observar el botón para agregar nuevos  Dispositivo Manual.
 * **Editar Dispositivo Manual:** Permite observar el botón para editar los  Dispositivo Manual.
 * **Eliminar Dispositivo Manual:** Permite eliminar los Dispositivo Manual existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Mensajes Predefinidos Llamadas
+
+</summary>
+<div>
 
 * **Listar Mensajes Predefinidos Llamada:** Permite observar la lista de los Mensajes Predefinidos Llamada.
 * **Crear Mensajes Predefinidos Llamadas:** Permite observar el botón para agregar nuevos Mensajes Predefinidos Llamada.
 * **Editar Mensajes Predefinidos Llamada:** Permite observar el botón para editar los Mensajes Predefinidos Llamada.
 * **Eliminar Mensajes Predefinidos Llamada:** Permite eliminar los Mensajes Predefinidos Llamada existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Etiquetas
+
+</summary>
+<div>
 
 * **Listar Etiquetas:** Permite observar la lista de las Etiquetas.
 * **Crear Etiquetas:** Permite observar el botón para agregar nuevos Etiquetas.
 * **Editar Etiquetas:** Permite observar el botón para editar las Etiquetas.
 * **Eliminar Etiquetas:** Permite eliminar las Etiquetas existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Servicios
+
+</summary>
+<div>
 
 * **Listar Servicios:** Permite observar la lista de los Servicios.
 * **Crear Servicios:** Permite observar el botón para agregar nuevos Servicios.
 * **Editar Servicios:** Permite observar el botón para editar los Servicios.
 * **Eliminar Servicios:** Permite eliminar los Servicios existentes.
 
+</div>
+</details>
+
+<details>
+<summary>
+
 ### Servicios Empresas
+
+</summary>
+<div>
 
 * **Listar Servicios Empresas:** Permite observar la lista de los Servicios Empresas.
 * **Crear Servicios Empresas:** Permite observar el botón para agregar nuevos Servicios Empresas.
 * **Editar Servicios Empresas:** Permite observar el botón para editar los Servicios Empresas.
 * **Eliminar Servicios Empresas:** Permite eliminar los Servicios Empresas existentes.
+
+</div>
+</details>
 
 ## Acceder como Usuario de Empresa
 

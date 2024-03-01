@@ -7,6 +7,8 @@ sidebar_position: 4
 
 Problemas relacionados con AlertSMS.
 
+<div className="center-table">
+
 | Problema                                                                | Posible Causa                                                                                                             | Solución                                                                                                                                |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Los mensajes no llegan al destinatario de la notificacion               | el formato del número es incorrecto o contiene caracteres no permitidos                                                   | Realizar un diagnostico de notificaciones SMS                                                                                           |
@@ -18,6 +20,8 @@ Problemas relacionados con AlertSMS.
 | Tarda mucho tiempo en enviar los mensajes                               | Parametro de paridad y velocidad del modem incorrecto                                                                     | Verificar el modelo de modem para ajustar la configuración en la plataforma de 365                                                      |
 | Tarda mucho tiempo en enviar los mensajes                               | el modem no es compatible con los comandos AT de alertSMS                                                                 | Comunicar con la gerencia para evaluar la posibilidad de hacer compatible ese modelo o en lo posible reemplazarlo por uno ya compatible |
 | Los mensajes no se envian y estan en cola indefinidamente               | El número destinatario pertenece a una linea fija que rechaza los SMS                                                     | Eliminar la notificación                                                                                                                |
+
+</div>
 
 ## Diagnostico de Notificaciones SMS
 
@@ -51,12 +55,16 @@ Si se muestra una x en la consola de alertSMS es porque perdió el puerto, hay q
 
 ## Errores de CMS documentados
 
+<div className="center-table">
+
 | Codigo        |               Error               | Descripción                                                                                                                                                                                                                                                                 |
 | :------------ | :-------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | CMS ERROR 8   |    Operator determined barring    | Esta causa indica que la linea ha intentado enviar un mensaje corto de origen móvil cuando el operador de red o el proveedor de servicios de la linea ha prohibido tales transacciones.                                                                                     |
 | CMS ERROR 50  | Requested facility not subscribed | Esta causa indica que la red no pudo proporcionar el servicio de mensajes cortos solicitado porque el usuario no ha completado los arreglos administrativos necesarios con sus redes de soporte. (Sucedió una vez cuando se intento enviar sms a números en el extranjeros) |
 | CMS ERROR 305 |    invalid text mode parameter    | Esta causa indica que el modem esta intentando enviar un parametro invalido en modo texto, esto puedes ser un caracter especial (o un espacio en blanco) en el nombre del cliente, del dispositivo o de un Zona/Punto                                                       |
 | CMS ERROR     |  short message transfer rejected  | Esta causa indica que el destinatario rechazó el SMS, posiblemente debido a que ese número pertenece a una linea telefonica que no recibe mensajes                                                                                                                          |
+
+</div>
 
 ## Error al intentar quitar ECHO al modem
 

@@ -30,6 +30,8 @@ Los asociados son un tipo de cliente que comparte varios dispositivos de diferen
 
 * Una vez llenado los datos con la información correspondiente, le damos clic en el boton guardar.
 
+<div className="center-table">
+
 |Campo|Descripción                                                              |
 |----------------|---------------------------------------------------------------|
 |`Nombre`|Nombre de la persona, empresa o grupo de asociados|
@@ -40,6 +42,8 @@ Los asociados son un tipo de cliente que comparte varios dispositivos de diferen
 |`Usuario`|Nombre del cliente para acceder a la plataforma                      |
 |`Clave`|Contraseña del cliente para acceder a la plataforma                    |
 |`Estatus`|Interruptor para activar o desactivar la cuenta del asociado         |
+
+</div>
 
 ## ¿Como editar un Asociado?
 
@@ -53,6 +57,8 @@ Los asociados son un tipo de cliente que comparte varios dispositivos de diferen
 
 * Una vez llenado los datos con la información correspondiente, le damos clic en el botón guardar.
 
+<div className="center-table">
+
 |Campo|Descripción                                                              |
 |----------------|---------------------------------------------------------------|
 |`Nombre`|Nombre de la persona, empresa o grupo de asociados|
@@ -63,6 +69,8 @@ Los asociados son un tipo de cliente que comparte varios dispositivos de diferen
 |`Usuario`|Nombre del cliente para acceder a la plataforma                      |
 |`Clave`|Contraseña del cliente para acceder a la plataforma                    |
 |`Estatus`|Interruptor para activar o desactivar la cuenta del asociado         |
+
+</div>
 
 ## ¿Cómo eliminar un Asociado?
 

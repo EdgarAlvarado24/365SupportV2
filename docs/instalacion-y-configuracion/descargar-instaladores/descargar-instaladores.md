@@ -8,7 +8,7 @@ sidebar_position: 1
 ## 365Connect
 * <a href="https://drive.google.com/file/d/1Mg_vgK3XjvIIqsHv4yP9U-36FazyLJhW/view" target="_blank">365Connect Lite</a>
 
-* <a href="https://drive.google.com/file/d/1FBTfk8f0y6DhtrW8-kjVF2oGcmoz8_Ax/view?usp=sharing" target="_blank">365Connect Pro v.20.12.18.0</a>
+* <a href="https://drive.google.com/file/d/1SUVp_a5irlQ2yO7gL9d7-N_m3FIx871X/view?usp=drive_link" target="_blank">365Connect Pro v.22.10.26.0</a>
 
 ## SQL
 * <a href="https://drive.google.com/open?id=0Bzx63q3PmThkMkU5bGRYS3Y1bzg" target="_blank">SQL 2014 SP2 x64</a>

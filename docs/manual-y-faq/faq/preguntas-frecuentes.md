@@ -532,10 +532,12 @@ para salir del bloqueo de aplicaciónes debe marcar las 4 esquinas de la pantall
 <summary> ¿Que efectos me trae en las aperturas y cierres cuando es un dia feriado?</summary>
 <div>
 * Cuando se configura un dia como feriado, todos los eventos de apertura y cierre que son generados ese dia no son monitoreables, ya que es un dia feriado.
+</div>
+</details>
 
----
-
+<details>
 <summary>¿Como habilitar el sonido de las notificaciones en mi xiaomi?</summary>
+<div>
 
 - Buscamos la aplicacion **Ajustes.**
 

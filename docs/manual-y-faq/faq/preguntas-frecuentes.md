@@ -623,3 +623,33 @@ para salir del bloqueo de aplicaciónes debe marcar las 4 esquinas de la pantall
 
 </div>
 </details>
+
+<details>
+<summary> ¿Como configurar un camara P2P Hikvision?</summary>
+<div>
+
+-  Una vez en el modulo dispositivos, buscamos el dispositivo al que queremos configurar la camara y hacemos clic en la opcion agregar.
+
+![add_cameras_hikvision](../faq/img/Help/add_cameras_hikvision.png "add_cameras_hikvision")
+
+- Se nos mostrara el formulario de agregar CCTV con todos los campos disponibles, seleccionamos en el modo de registro P2P Hikvision y el formulario cambiara para mostrarnos los campos que necesitamos llenar para configurar la camara.
+
+![add_cameras_hikvision_fields_necessary](../faq/img/Help/add_camaras_hikvision_fields_necessary.png "add_cameras_hikvision_fields_necessary")
+
+|Campo|Descripcion|
+|---|---|
+|`Descripcion`|Nombre del lugar o sitio donde esta alojada la camara|
+|`Serial`|Serial de la camara|
+|`Llave de Camaras Hikvision`| Clave (Key) del servidor donde esta alojado las camaras de [Hik-Connect](https://www.hik-connect.com/) |
+|`Llave Secreta de Camaras Hikvision`|Clave Secreta (Secret) del servidor donde esta alojado las camaras de [Hik-Connect](https://www.hik-connect.com/)|
+|`Canal`|Numero del canal donde esta alojada la camara|
+|`Descripcion`|Nombre del lugar o sitio donde esta la camara o posicion de la misma|
+
+- Una vez hecho llenado los campos necesarios estara lista para ser visualizada.
+
+:::tip Nota
+ Los campos Llave **"Key"** y Llave secreta **"Secret"** son necesarios para configurar la camara pero en caso de estar vacios se tomaran de estos mismos campos desde los parametros de la empresa.
+:::
+
+</div>
+</details>

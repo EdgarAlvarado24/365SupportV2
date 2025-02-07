@@ -21,44 +21,48 @@ Desde este segmento se administran las empresas desde los tipos de dispositivos 
 
 - Se desplegará un formulario que debe llenar con los datos del cliente.
 
-| Campo                                      | Descripción                                                                                                                                                  |
-| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `Nombre`                                   | Nombre de la empresa                                                                                                                                         |
-| `RIF`                                      | Documento de registro o numero de identificación de la Empresa                                                                                               |
-| `País`                                     | Nación donde realiza sus actividades la empresa                                                                                                              |
-| `Estado`                                   | Región del país en la que se encuentra la empresa                                                                                                            |
-| `Idioma `                                  | Selecciona el idioma que utiliza el cliente                                                                                                                  |
-| `Zona Horaria`                             | Región horaria a la que pertenece                                                                                                                            |
-| `Dirección `                               | Localización física de la empresa                                                                                                                            |
-| `Teléfono `                                | Número de teléfono                                                                                                                                           |
-| `Correo`                                   | Dirección valida para recepción de Emails                                                                                                                    |
-| `Pagina Web    `                           | Dirección de pagina web                                                                                                                                      |
-| `Latitud `                                 | Coordenada de ubicación de la empresa                                                                                                                        |
-| `Longitud`                                 | Coordenada de ubicación de la empresa                                                                                                                        |
-| `Sonido Pendiente`                         | Tiempo de activación de Sonido señales pendientes                                                                                                            |
-| `Hombre Muerto`                            | Tiempo de activación hombre muerto                                                                                                                           |
-| `Notificación Hombre `                     | Tiempo para notificar el estatus hombre muerto                                                                                                               |
-| `Tiempo limite para señales transferidas ` | Tiempo que tiene el operador para aceptar una señal transferida                                                                                              |
-| `Tiempo de vencimiento señales pendientes` | Tiempo de vida de una señal pendiente                                                                                                                        |
-| `Correos hombre muerto `                   | Correos para notificar el estatus hombre muerto                                                                                                              |
-| `Tema web`                                 | Tema visual de la empresa                                                                                                                                    |
-| `Estatus Monitoreo`                        | Activa o desactiva el monitoreo de dispositivos, lo cual impide/permite que lleguen señales monitoreables a dicha empresa                                    |
-| `Estatus Web`                              | Activa o desactiva el acceso web, lo cual permite gestionar el acceso de los clientes de esa empresa a la plataforma web                                     |
-| `Estatus SMS`                              | Activa o desactiva el envio de notificaciones sms a los dispositivos de esa empresa                                                                          |
-| `Estatus push`                             | Activa o desactiva el envio de notificaciones push a los dispositivos de esa empresa                                                                         |
-| `Radio para punto QR`                      | Distancia radial en la cual es válido escanear un código QR                                                                                                  |
-| `Empresa Monitorea`                        | Selector de la empresa que monitorea las señales                                                                                                             |
-| `Correo SMTP`                              | Dirección de correo electrónico para SMTP                                                                                                                    |
-| `Clave Correo SMTP`                        | Contraseña de correo electrónico para SMTP                                                                                                                   |
-| `Servidor SMTP`                            | Dirección de servidor SMTP                                                                                                                                   |
-| `Puerto SMTP`                              | Puerto para la configuración de SMTP                                                                                                                         |
-| `SSL`                                      | Activa o Desactiva el protocolo secure sockets layer                                                                                                         |
-| `Zona de Servicio`                         | Permite configurar una geocerca para los dispositivos SOS, para filtrar los eventos que se generen fuera de la geocerca en 'Eventos externos de la geocerca' |
-| `Eventos externos de la geocerca`          | Permite o bloquea los eventos generados por dispositivos SOS que no se encuentren dentro del area designada en la Zona de Servicio                           |
-| `Amigos en la app 365Sos`                  | Activa o Desactiva la opción de amigos en la app 365Sos                                                                                                      |
-| `Mapa en la app 365Sos`                    | Activa o Desactiva la opción de mapa en la app 365Sos                                                                                                        |
-| `Logo`                                     | Seleccione el logo que desea visualizar en la empresa                                                                                                        |
-| `Logo Movil`                               | Seleccione el logo que desea visualizar en la app 365Sos                                                                                                     |
+| Campo | Descripción |
+| ------------- | -------------- |
+| `Nombre`| Nombre de la empresa |
+| `RIF` | Documento de registro o numero de identificación de la Empresa |
+| `País`  | Nación donde realiza sus actividades la empresa |
+| `Estado` | Región del país en la que se encuentra la empresa |
+| `Idioma ` | Selecciona el idioma que utiliza el cliente |
+| `Zona Horaria` | Región horaria a la que pertenece |
+| `Dirección ` | Localización física de la empresa |
+| `Teléfono ` | Número de teléfono |
+| `Correo` | Dirección valida para recepción de Emails |
+| `Pagina Web` | Dirección de pagina web |
+| `Latitud` | Coordenada de ubicación de la empresa |
+| `Longitud` | Coordenada de ubicación de la empresa |
+| `Sonido Pendiente` | Tiempo de activación de Sonido señales pendientes |
+| `Hombre Muerto` | Tiempo de activación hombre |
+| `Notificación Hombre` | Tiempo para notificar el estatus hombre |
+| `Tiempo limite para señales transferidas ` | Tiempo que tiene el operador para aceptar una señal |
+| `Tiempo de vencimiento señales pendientes` | Tiempo de vida de una señal pendiente |
+| `Correos hombre muerto ` | Correos para notificar el estatus hombre muerto |
+| `Tema web` | Tema visual de la empresa |
+| `Estatus Monitoreo` | Activa o desactiva el monitoreo de dispositivos, lo cual impide/permite que lleguen señales monitoreables a dicha empresa |
+| `Estatus Web` | Activa o desactiva el acceso web, lo cual permite gestionar el acceso de los clientes de esa empresa a la plataforma web |
+| `Estatus SMS` | Activa o desactiva el envio de notificaciones sms a los dispositivos de esa empresa |
+| `Estatus push` | Activa o desactiva el envio de notificaciones push a los dispositivos de esa empresa |
+| `Radio para punto QR` | Distancia radial en la cual es válido escanear un código QR |
+| `Empresa Monitorea` | Selector de la empresa que monitorea las señales |
+| `Correo SMTP` | Dirección de correo electrónico para SMTP |
+| `Clave Correo SMTP` | Contraseña de correo electrónico para SMTP |
+| `Servidor SMTP`| Dirección de servidor SMTP|
+| `Puerto SMTP` | Puerto para la configuración de SMTP |
+| `Llave de Camaras Hikvision`| Clave (Key) del servidor donde esta alojado las camaras de [Hik-Connect](https://www.hik-connect.com/)|
+| `Llave Secreta de Camaras Hikvision`| Clave Secreta (Secret) del servidor donde esta alojado las camaras de [Hik-Connect](https://www.hik-connect.com/)|
+| `Risco Cloud VuPoint Id`| Id del servidor donde esta alojado la multimedia del protocolo Risco |
+| `Risco Cloud VuPoint Password`| Clave del servidor donde esta alojado la multimedia del protocolo Risco |
+| `SSL` | Activa o Desactiva el protocolo secure sockets layer |
+| `Zona de Servicio` | Permite configurar una geocerca para los dispositivos SOS, para filtrar los eventos que se generen fuera de la geocerca en Eventos externos de la geocerca |
+| `Eventos externos de la geocerca` | Permite o bloquea los eventos generados por dispositivos SOS que no se encuentren dentro del area designada en la Zona de Servicio |
+| `Amigos en la app 365Sos` | Activa o Desactiva la opción de amigos en la app 365Sos |
+| `Mapa en la app 365Sos` | Activa o Desactiva la opción de mapa en la app 365Sos |
+| `Logo` | Seleccione el logo que desea visualizar en la empresa |
+| `Logo Movil` | Seleccione el logo que desea visualizar en la app 365Sos |
 
 ### ¿Cómo agregar prefijos a una Empresa?
 

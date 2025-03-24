@@ -37,3 +37,11 @@ sidebar_position: 1
 * <a href="https://drive.google.com/file/d/1U6b6RxYTvNqjW37ee4fy5r9ExvMQG3EI/view?usp=sharing" target="_blank">Driver Alternativo Cable COM a USB</a>
 
 * <a href="https://drive.google.com/file/d/1uKUkcOEPCrn0LcmKwbH7UMK_1XW8xa4y/view?usp=sharing" target="_blank">Driver Enfora EDG1228</a>
+
+## Hikvision
+
+* <a href="https://drive.google.com/file/d/19rsJD1irqSIIIdRFa5gf0hQcinf0LQW5/view?usp=sharing" target="_blank">Hik Ip Receiver Pro 1.6.1.20</a>
+
+## DX Control
+
+* <a href="https://drive.google.com/file/d/1J5QS2teYWVk1Z1WePwA45mJSlt34nZuY/view?usp=drive_link" target="_blank">DX Control</a>

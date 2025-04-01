@@ -45,3 +45,9 @@ sidebar_position: 1
 ## DX Control
 
 * <a href="https://drive.google.com/file/d/1J5QS2teYWVk1Z1WePwA45mJSlt34nZuY/view?usp=drive_link" target="_blank">DX Control</a>
+
+## OBDC
+
+* <a href="https://download.microsoft.com/download/1/8/D/18D588C9-8F23-4111-B572-A5157B64F8A1/ESN/x86/msodbcsql.msi" target="_blank">Descargar OBDC 11 x32Bits</a>
+
+* <a href="https://download.microsoft.com/download/1/8/D/18D588C9-8F23-4111-B572-A5157B64F8A1/ESN/x64/msodbcsql.msi" target="_blank">Descargar OBDC 11 x64Bits</a>

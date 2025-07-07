@@ -331,6 +331,8 @@ Los eventos configurados con prioridad de 1 a 3 se consideran eventos de emergen
 | `Background`       | Color que se le quiere dar al relleno del evento                                  |
 | `Demo`             | Demostración de como se mostrara el evento con el color del texto y el background |
 | `Audio del Evento` | Sonido Configurable del evento                                                    |
+| `Evento de Restuaracion` | Evento Configurable                                                         |
+| `Intervalo`        | Tiempo de espera para generar el evento E365_NOT_RESTAURE                         |
 | `Prioridad`        | Prioridad con la que se mostrara el evento el Módulo de monitoreo                 |
 | `Monitoreo`        | Mostrara si el evento es o no monitoreable en la plataforma                       |
 | `Autoprocesar`     | El evento se procesara de forma automática o no                                   |
@@ -338,6 +340,12 @@ Los eventos configurados con prioridad de 1 a 3 se consideran eventos de emergen
 | `Variables`        | Variables que maneja el mensaje de la plataforma                                  |
 
 - Una vez llenados todos los datos necesarios el evento sera creado.
+
+### Restauracion de Evento
+
+Un evento de restauración es una configuracion relacionada a un evento, el cual genera un evento cada cierto periodo de tiempo el cual es opcional, indicando que todavia no se ha recibido la restauración del evento inicial, si dicho tiempo no se configura el tiempo por defecto es de 10seg por defecto.
+
+![Planes](./img/Parametros/E365_NOT_RESTORE.png "Planes")
 
 ### Planes
 

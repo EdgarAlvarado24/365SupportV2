@@ -8,9 +8,11 @@ sidebar_position: 1
 ## 365Connect
 * <a href="https://drive.google.com/file/d/1Mg_vgK3XjvIIqsHv4yP9U-36FazyLJhW/view" target="_blank">365Connect Lite</a>
 
-* <a href="https://drive.google.com/file/d/1H1oPgdXppVDVByPS_wlYOfIv-63q8Jhr/view?usp=sharing" target="_blank">365Connect Pro v.24.10.01</a>
+* <a href="https://drive.google.com/file/d/1eYOHloF9zKorSfOYo6S9fF1LsvC1SHPS/view?usp=sharing" target="_blank">365Connect Pro v.25.08.11</a>
 
 ## SQL
+* <a href="https://drive.google.com/file/d/1qOQmYn_FzZ4v6TBjvn05lyU7Gq6nynic/view?usp=sharing" target="_blank">SQL MAGANEMENT SERVER 2019 </a>
+
 * <a href="https://drive.google.com/open?id=0Bzx63q3PmThkMkU5bGRYS3Y1bzg" target="_blank">SQL 2014 SP2 x64</a>
 
 * <a href="https://download.microsoft.com/download/C/A/3/CA36A732-59EC-4CEA-971A-0269B992C82A/ExpressAndTools%2064BIT/SQLEXPRWT_x64_ESN.exe" target="_blank">SQL Express  x64 Con Tool 2014</a>
